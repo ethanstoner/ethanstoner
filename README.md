@@ -19,6 +19,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - ☕ **Java** - Building robust enterprise applications  
 - 🟨 **JavaScript** - Creating dynamic web experiences
 - 🔌 **API Development** - Building and integrating RESTful APIs
+- 🤖 **AI Integration** - Leveraging AI tools to accelerate development and boost productivity
 - 🐳 **Docker** - Containerizing everything in sight
 - 🟢 **Node.js** - Server-side JavaScript adventures
 - 🌐 **HTML/CSS** - Crafting the web's foundation
