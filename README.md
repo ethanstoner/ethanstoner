@@ -12,6 +12,9 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 **🎓 Educational Background:**
 - **Early Computer Introduction** - Introduced to computers at age 8 and became extremely passionate about them, fascinated and wanting to learn more
+- **Reverse Engineering Curiosity** - Fascinated by how things work, I would attempt to reverse engineer systems to understand their inner workings
+- **Cybersecurity Research** - Extensively studied major cyberthreats in history, learning how vulnerabilities were exploited and how attacks were eventually stopped
+- **Military Cyberwarfare** - Researched how cybersecurity is used in military operations and national defense
 - **First Coding Experience** - Discovered my passion for programming in 8th grade STEM class, when I decided this would be my lifelong interest
 - **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
 - **Strong Foundation** - Built comprehensive understanding across multiple programming paradigms
@@ -21,7 +24,9 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - ☕ **Java** - Building robust enterprise applications  
 - 🟨 **JavaScript** - Creating dynamic web experiences
 - 🔌 **API Development** - Building and integrating RESTful APIs
+- 🔒 **Cybersecurity** - Understanding vulnerabilities, attack vectors, and defense mechanisms
 - 🤖 **AI Integration** - Leveraging AI tools to accelerate development and boost productivity
+- 🔍 **Reverse Engineering** - Analyzing systems to understand their inner workings
 - 🐳 **Docker** - Containerizing everything in sight
 - 🟢 **Node.js** - Server-side JavaScript adventures
 - 🌐 **HTML/CSS** - Crafting the web's foundation
