@@ -28,6 +28,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - 🔒 **Cybersecurity** - Understanding vulnerabilities, attack vectors, and defense mechanisms
 - 🤖 **AI Integration** - Using AI tools to enhance development efficiency
 - 🔍 **Reverse Engineering** - Analyzing systems to understand their inner workings
+- 📡 **RF/Hardware Hacking** - Working with Tools for radio signal copying, infrared emulation, and hardware analysis
 - 🐳 **Docker** - Containerization and deployment
 - 🟢 **Node.js** - Server-side JavaScript development
 - 🌐 **HTML/CSS** - Web development and styling
