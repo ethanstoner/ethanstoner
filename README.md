@@ -8,14 +8,22 @@
 
 ## 🚀 About Me
 
-I'm a passionate developer who loves building cool projects and exploring new technologies! Currently diving deep into modern web development and containerization.
+I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, diving deep into modern web development and containerization.
 
+**🎓 Educational Background:**
+- **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
+- **Strong Foundation** - Built comprehensive understanding across multiple programming paradigms
+
+**🛠️ Technical Skills:**
 - 🐍 **Python** - My go-to language for automation and backend magic
-- ☕ **Java** - Building robust enterprise applications
+- ☕ **Java** - Building robust enterprise applications  
 - 🟨 **JavaScript** - Creating dynamic web experiences
+- 🔌 **API Development** - Building and integrating RESTful APIs
 - 🐳 **Docker** - Containerizing everything in sight
 - 🟢 **Node.js** - Server-side JavaScript adventures
-- 🌐 **HTML** - Crafting the web's foundation
+- 🌐 **HTML/CSS** - Crafting the web's foundation
+- 🎬 **Video Processing** - Creating automated content workflows
+- 📊 **Data Analysis** - Building tools for educational workflows
 
 ## 🛠️ Tech Stack
 
@@ -37,6 +45,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 ## 🎯 Current Focus
 
+- 🎓 **Cisco Mentorship Program** - Enrolled in computer science mentorship with Cisco professionals
 - 🔥 Building modern web applications
 - 🐳 Mastering containerization with Docker
 - 🚀 Exploring microservices architecture
@@ -63,12 +72,21 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 ## 🎨 Featured Projects
 
-### 🐉 Ares Cloner
-**Modern Fortnite V-Bucks Email Sender**
-- 🎯 CustomTkinter UI with Bloxstrap-style design
-- 🚀 Async email processing with Gmail API
-- 🎨 Professional launcher aesthetic
-- 📦 Docker containerization ready
+### 📊 Quiz Sorter for TAs
+**Professional tool for organizing Wayground quiz data with attendance tracking**
+- 🎯 Smart name matching and attendance integration
+- 📋 Alphabetical sorting with professional PDF output
+- 🔄 Smart retakes support preserving higher scores
+- 📈 Multi-quiz merge with configurable curve caps
+- 🎓 Designed specifically for Teaching Assistant workflows
+
+### 🎬 MP4 to Short-Form Video Editor
+**Social media content creation and scheduling tool**
+- ✂️ Automatic video segmentation for short-form content
+- 📝 Dynamic title and text overlay generation
+- ⏰ Smart scheduling avoiding inactive hours (4-hour intervals)
+- 📱 Ready-to-upload social media formatting
+- 🚀 Streamlined content creation workflow
 
 ### 🛠️ Other Cool Stuff
 - 🤖 Automation scripts in Python
