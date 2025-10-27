@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, diving deep into modern web development and containerization.
+I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, learning to create monetizable projects, process subscriptions, and analyze profitability - focusing on passion-driven work with strategic business guidance.
 
 **🎓 Educational Background:**
 - **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
@@ -46,7 +46,9 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 ## 🎯 Current Focus
 
-- 🎓 **Cisco Mentorship Program** - Enrolled in computer science mentorship with Cisco professionals
+- 💰 **Cisco Mentorship Program** - Learning to build monetizable projects and subscription-based businesses with profitability analysis
+- 🎯 **Passion-Driven Development** - Working on approved projects I'm genuinely excited about, not assigned boring tasks
+- 💡 **Business Strategy** - Understanding that $300 revenue vs $400 startup cost isn't profit, but shows project viability worth pursuing
 - 🔥 Building modern web applications
 - 🐳 Mastering containerization with Docker
 - 🚀 Exploring microservices architecture
