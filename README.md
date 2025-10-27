@@ -17,20 +17,21 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - **Military Cyberwarfare** - Researched how cybersecurity is used in military operations and national defense
 - **First Coding Experience** - Discovered my passion for programming in 8th grade STEM class, when I decided this would be my lifelong interest
 - **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
+- **Current AP Courses** - Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
 - **Strong Foundation** - Built comprehensive understanding across multiple programming paradigms
 
 **🛠️ Technical Skills:**
-- 🐍 **Python** - My go-to language for automation and backend magic
-- ☕ **Java** - Building robust enterprise applications  
-- 🟨 **JavaScript** - Creating dynamic web experiences
+- 🐍 **Python** - My primary language for automation and backend development
+- ☕ **Java** - Building enterprise applications and systems
+- 🟨 **JavaScript** - Creating dynamic web applications
 - 🔌 **API Development** - Building and integrating RESTful APIs
 - 🔒 **Cybersecurity** - Understanding vulnerabilities, attack vectors, and defense mechanisms
-- 🤖 **AI Integration** - Leveraging AI tools to accelerate development and boost productivity
+- 🤖 **AI Integration** - Using AI tools to enhance development efficiency
 - 🔍 **Reverse Engineering** - Analyzing systems to understand their inner workings
-- 🐳 **Docker** - Containerizing everything in sight
-- 🟢 **Node.js** - Server-side JavaScript adventures
-- 🌐 **HTML/CSS** - Crafting the web's foundation
-- 🎬 **Video Processing** - Creating automated content workflows
+- 🐳 **Docker** - Containerization and deployment
+- 🟢 **Node.js** - Server-side JavaScript development
+- 🌐 **HTML/CSS** - Web development and styling
+- 🎬 **Video Processing** - Automated content creation workflows
 - 📊 **Data Analysis** - Building tools for educational workflows
 
 ## 🛠️ Tech Stack
