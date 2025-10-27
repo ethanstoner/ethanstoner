@@ -11,6 +11,8 @@
 I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, learning to create monetizable projects, process subscriptions, and analyze profitability - focusing on passion-driven work with strategic business guidance.
 
 **🎓 Educational Background:**
+- **Early Computer Introduction** - Introduced to computers at age 8 and became extremely passionate about them, fascinated and wanting to learn more
+- **First Coding Experience** - Discovered my passion for programming in 8th grade STEM class, when I decided this would be my lifelong interest
 - **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
 - **Strong Foundation** - Built comprehensive understanding across multiple programming paradigms
 
