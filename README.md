@@ -85,7 +85,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 ## 🔥 Streak Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=ethanstoner&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=ethanstoner&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_bust=1761858043" alt="GitHub Streak" />
 </div>
 
 ## 🎨 Featured Projects
