@@ -96,6 +96,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - Variable speed (90-130 WPM) with natural rhythm and pauses
 - Smart punctuation conversion for seamless typing
 - GUI configuration for speed and typo frequency
+- Built with Lua and Hammerspoon
 - [View on GitHub](https://github.com/ethanstoner/humanlike-typer)
 
 ### Quiz Sorter for TAs
@@ -105,14 +106,17 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - Smart retakes support preserving higher scores
 - Multi-quiz merge with configurable curve caps
 - Designed specifically for Teaching Assistant workflows
+- Built with Python
+- [View on GitHub](https://github.com/ethanstoner/Quiz-Sorter-Program)
 
 ### MP4 to Short-Form Video Editor
 **Social media content creation and scheduling tool**
-- Automatic video segmentation for short-form content
-- Dynamic title and text overlay generation
+- Automatic video segmentation for short-form content using ffmpeg
+- Dynamic title and text overlay generation with MoviePy
 - Smart scheduling avoiding inactive hours (4-hour intervals)
 - Ready-to-upload social media formatting
 - Streamlined content creation workflow
+- Built with Python, ffmpeg, and MoviePy
 
 ### Other Cool Stuff
 - Automation scripts in Python
