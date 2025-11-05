@@ -1,7 +1,7 @@
 # Hello, I'm Ethan!
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Python+Developer;Java+Programmer;JavaScript+Builder;Lua+Scripter;Docker+User;Node.js+Developer;macOS+%26+Windows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Python+Developer;Java+Developer;JavaScript+Developer;Full+Stack+Developer;Automation+Engineer;macOS+%26+Windows+Developer" alt="Typing SVG" />
 </div>
 
 ---
