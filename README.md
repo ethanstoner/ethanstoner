@@ -27,7 +27,7 @@ I'm a passionate developer focused on building innovative solutions and explorin
 - **Java** - Enterprise application and system development
 - **JavaScript** - Dynamic web application development
 - **Lua** - Scripting and automation for macOS (Hammerspoon)
-- **API Development** - Building and integrating RESTful APIs
+- **API Development** - Building and integrating RESTful APIs, webhooks, and third-party integrations
 - **Cybersecurity** - Vulnerability analysis, attack vectors, and defense mechanisms
 - **AI Integration** - Leveraging AI tools to enhance development efficiency
 - **Reverse Engineering** - System analysis and architecture understanding
@@ -55,10 +55,10 @@ I'm a passionate developer focused on building innovative solutions and explorin
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6F00?style=for-the-badge&logo=rest&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![AutoHotkey](https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white)
 
 ### Development Tools
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -70,7 +70,6 @@ I'm a passionate developer focused on building innovative solutions and explorin
 ![Cursor](https://img.shields.io/badge/Cursor_AI-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-1F2937?style=for-the-badge&logo=deepseek&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white)
 
 ### Platforms
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
