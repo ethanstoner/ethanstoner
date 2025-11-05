@@ -8,33 +8,35 @@
 
 ## About Me
 
-I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, learning to create monetizable projects, process subscriptions, and analyze profitability - focusing on passion-driven work with strategic business guidance.
+I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with Cisco professionals, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability—focusing on passion-driven work with strategic business guidance.
 
 **Educational Background:**
-- **Early Computer Introduction** - Introduced to computers at age 8 and became extremely passionate about them, fascinated and wanting to learn more
-- **Reverse Engineering Curiosity** - Fascinated by how things work, I would attempt to reverse engineer systems to understand their inner workings
-- **Cybersecurity Research** - Extensively studied major cyberthreats in history, learning how vulnerabilities were exploited and how attacks were eventually stopped
-- **Military Cyberwarfare** - Researched how cybersecurity is used in military operations and national defense
-- **First Coding Experience** - Discovered my passion for programming in 8th grade STEM class, when I decided this would be my lifelong interest
-- **3 Years of High School Computer Science** - Completed AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
+
+- **Early Computer Introduction** - Introduced to computers at age 8, developing a strong passion for technology and computing
+- **Reverse Engineering** - Analyzed systems to understand their inner workings and architecture
+- **Cybersecurity Research** - Studied major cyberthreats throughout history, learning how vulnerabilities were exploited and how attacks were mitigated
+- **Military Cyberwarfare** - Researched cybersecurity applications in military operations and national defense
+- **First Coding Experience** - Discovered passion for programming in 8th grade STEM class
+- **High School Computer Science** - Completed 3 years including AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
 - **Current AP Courses** - Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
-- **Strong Foundation** - Built comprehensive understanding across multiple programming paradigms
+- **Strong Foundation** - Comprehensive understanding across multiple programming paradigms
 
 **Technical Skills:**
-- **Python** - My primary language for automation and backend development
-- **Java** - Building enterprise applications and systems
-- **JavaScript** - Creating dynamic web applications
+
+- **Python** - Primary language for automation and backend development
+- **Java** - Enterprise application and system development
+- **JavaScript** - Dynamic web application development
 - **Lua** - Scripting and automation for macOS (Hammerspoon)
 - **API Development** - Building and integrating RESTful APIs
-- **Cybersecurity** - Understanding vulnerabilities, attack vectors, and defense mechanisms
-- **AI Integration** - Using AI tools to enhance development efficiency
-- **Reverse Engineering** - Analyzing systems to understand their inner workings
-- **RF/Hardware Hacking** - Working with tools for radio signal copying, infrared emulation, and hardware analysis
+- **Cybersecurity** - Vulnerability analysis, attack vectors, and defense mechanisms
+- **AI Integration** - Leveraging AI tools to enhance development efficiency
+- **Reverse Engineering** - System analysis and architecture understanding
+- **RF/Hardware Hacking** - Radio signal processing, infrared emulation, and hardware analysis
 - **Docker** - Containerization and deployment
 - **Node.js** - Server-side JavaScript development
 - **HTML/CSS** - Web development and styling
 - **Video Processing** - Automated content creation workflows
-- **Data Analysis** - Building tools for educational workflows
+- **Data Analysis** - Educational workflow automation tools
 
 ## Tech Stack
 
@@ -62,8 +64,8 @@ I'm a passionate developer who loves building cool projects and exploring new te
 ## Current Focus
 
 - **Cisco Mentorship Program** - Learning to build monetizable projects and subscription-based businesses with profitability analysis
-- **Passion-Driven Development** - Working on approved projects I'm genuinely excited about, not assigned boring tasks
-- **Business Strategy** - Understanding that $300 revenue vs $400 startup cost isn't profit, but shows project viability worth pursuing
+- **Passion-Driven Development** - Working on projects that align with my interests and technical goals
+- **Business Strategy** - Understanding project viability through revenue analysis and cost evaluation
 - Building modern web applications
 - Mastering containerization with Docker
 - Exploring microservices architecture
@@ -92,33 +94,42 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 ### HumanLike Typer
 **Realistic human typing emulator for macOS**
+
+A sophisticated typing automation tool that simulates realistic human typing patterns with QWERTY-based typos, variable speed (90-130 WPM), and natural rhythm. Features include smart punctuation conversion, GUI configuration, and seamless integration with macOS.
+
 - QWERTY-based typos with 60% adjacent-key mistakes and 40% transpositions
 - Variable speed (90-130 WPM) with natural rhythm and pauses
 - Smart punctuation conversion for seamless typing
 - GUI configuration for speed and typo frequency
 - Built with Lua and Hammerspoon
-- [View on GitHub](https://github.com/ethanstoner/humanlike-typer)
+
+[View on GitHub](https://github.com/ethanstoner/humanlike-typer)
 
 ### Quiz Sorter for TAs
 **Professional tool for organizing Wayground quiz data with attendance tracking**
+
+A comprehensive solution designed specifically for Teaching Assistants to streamline quiz data processing. Features intelligent name matching, attendance integration, multi-quiz merging, and professional PDF output generation.
+
 - Smart name matching and attendance integration
 - Alphabetical sorting with professional PDF output
 - Smart retakes support preserving higher scores
 - Multi-quiz merge with configurable curve caps
-- Designed specifically for Teaching Assistant workflows
 - Built with Python
-- [View on GitHub](https://github.com/ethanstoner/Quiz-Sorter-Program)
+
+[View on GitHub](https://github.com/ethanstoner/Quiz-Sorter-Program)
 
 ### MP4 to Short-Form Video Editor
 **Social media content creation and scheduling tool**
+
+An automated video processing system that segments long-form content into short-form videos optimized for social media platforms. Includes dynamic title generation, text overlay, and intelligent scheduling.
+
 - Automatic video segmentation for short-form content using ffmpeg
 - Dynamic title and text overlay generation with MoviePy
 - Smart scheduling avoiding inactive hours (4-hour intervals)
 - Ready-to-upload social media formatting
-- Streamlined content creation workflow
 - Built with Python, ffmpeg, and MoviePy
 
-### Other Cool Stuff
+### Additional Projects
 - Automation scripts in Python
 - Web applications with Node.js
 - Containerized microservices
