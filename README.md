@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Ethan!
+# Hello, I'm Ethan!
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Python+Developer;Java+Programmer;JavaScript+Builder;Lua+Scripter;Docker+User;Node.js+Developer;macOS+%26+Windows" alt="Typing SVG" />
@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 I'm a passionate developer who loves building cool projects and exploring new technologies! Currently enrolled in a computer science mentorship program with Cisco professionals, learning to create monetizable projects, process subscriptions, and analyze profitability - focusing on passion-driven work with strategic business guidance.
 
@@ -36,7 +36,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - **Video Processing** - Automated content creation workflows
 - **Data Analysis** - Building tools for educational workflows
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -59,7 +59,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 
 </div>
 
-## 🎯 Current Focus
+## Current Focus
 
 - **Cisco Mentorship Program** - Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Passion-Driven Development** - Working on approved projects I'm genuinely excited about, not assigned boring tasks
@@ -69,26 +69,26 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - Exploring microservices architecture
 - Learning mobile development patterns
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ethanstoner&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
 </div>
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ethanstoner&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
-## 🔥 Streak Stats
+## Streak Stats
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ethanstoner&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_bust=1761858043" alt="GitHub Streak" />
 </div>
 
-## 🎨 Featured Projects
+## Featured Projects
 
 ### HumanLike Typer
 **Realistic human typing emulator for macOS**
@@ -124,7 +124,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 - Containerized microservices
 - Enterprise Java applications
 
-## 🤝 Let's Connect!
+## Let's Connect
 
 <div align="center">
 
@@ -139,7 +139,7 @@ I'm a passionate developer who loves building cool projects and exploring new te
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ethanstoner&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   
-  **⭐ Feel free to follow me — I'd really appreciate your support!**
+  **Feel free to follow me — I'd really appreciate your support!**
 </div>
 
 ---
