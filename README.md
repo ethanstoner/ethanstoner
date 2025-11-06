@@ -24,7 +24,7 @@ I'm a passionate developer focused on building innovative solutions and explorin
 
 ## Automation Philosophy
 
-I believe in automating everything—if a task is repetitive, tedious, or time-consuming, it deserves to be automated. Automation isn't just about saving time; it's about eliminating human error, ensuring consistency, and freeing up mental energy for more creative and impactful work. Whether it's a simple script to organize files or a complex system to streamline entire workflows, I find joy in building solutions that make life easier.
+If I have to do something more than once, I'll probably automate it. There's something satisfying about turning a boring, repetitive task into a script that just works. Plus, it means I can focus on the fun stuff instead of doing the same thing over and over again.
 
 > *"Why spend 6 minutes doing something when you can spend 6 hours trying to automate it?"*
 
