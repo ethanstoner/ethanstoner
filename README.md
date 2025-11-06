@@ -6,6 +6,8 @@
 
 ## <span style="color: #00D4FF;">Contact Me</span>
 
+If you need help with automation, want to collaborate on a project, or just want to connect, feel free to reach out!
+
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ethanstoner)
