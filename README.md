@@ -57,8 +57,7 @@ A sophisticated typing automation tool that simulates realistic human typing pat
 
 ---
 
-<details open>
-<summary><h2><span style="color: #00D4FF;">Tech Stack</span></h2></summary>
+## <span style="color: #00D4FF;">Tech Stack</span>
 
 <div align="center">
 
@@ -89,8 +88,6 @@ A sophisticated typing automation tool that simulates realistic human typing pat
 
 </div>
 
-</details>
-
 ---
 
 ## <span style="color: #00D4FF;">What I'm Looking For</span>
@@ -105,20 +102,16 @@ Currently learning Docker, microservices, and business strategy through the Cisc
 
 ---
 
-<details open>
-<summary><h2><span style="color: #00D4FF;">Education & Experience</span></h2></summary>
+## <span style="color: #00D4FF;">Education & Experience</span>
 
 - **3 years of Computer Science courses** including AP Computer Science Principles, Python programming, and Java development
 - **Currently enrolled**: AP Calculus AB, AP Statistics, and AP English Literature
 - **Cisco Mentorship Program**: Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Started coding in 8th grade** and have been building automation tools ever since
 
-</details>
-
 ---
 
-<details open>
-<summary><h2><span style="color: #00D4FF;">GitHub Metrics</span></h2></summary>
+## <span style="color: #00D4FF;">GitHub Metrics</span>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
@@ -134,12 +127,9 @@ Currently learning Docker, microservices, and business strategy through the Cisc
   ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ethanstoner&theme=github-dark&hide_border=true&area=true)
 </div>
 
-</details>
-
 ---
 
-<details>
-<summary><h2><span style="color: #00D4FF;">More About Me</span></h2></summary>
+## <span style="color: #00D4FF;">More About Me</span>
 
 ### Additional Interests & Skills
 - **Cybersecurity**: Vulnerability analysis, attack vectors, and defense mechanisms
@@ -153,8 +143,6 @@ Currently learning Docker, microservices, and business strategy through the Cisc
 - Web applications with Node.js
 - Containerized microservices
 - Enterprise Java applications
-
-</details>
 
 ---
 
