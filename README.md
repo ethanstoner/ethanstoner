@@ -1,7 +1,11 @@
-# Hello, I'm Ethan!
+# Hello, I'm Ethan! 👋
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Python+Developer;Java+Developer;JavaScript+Developer;Full+Stack+Developer;Automation+Engineer;macOS+%26+Windows+Developer" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ethanstoner&label=Profile%20views&color=00D4FF&style=flat" alt="Profile Views" />
 </div>
 
 ---
@@ -10,7 +14,15 @@
 
 I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with Cisco professionals, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability—focusing on passion-driven work with strategic business guidance.
 
-**Educational Background:**
+## 🔥 Rapid Fire
+
+- 💼 **I'm currently working on:** Building monetizable projects through the Cisco mentorship program and developing automation tools
+- 🌱 **I'm currently learning:** Business strategy, subscription models, Docker containerization, and microservices architecture
+- 💬 **Ask me about:** Python automation, macOS development with Hammerspoon, reverse engineering, or cybersecurity
+- ⚡ **Fun fact:** I started coding in 8th grade and have been fascinated with reverse engineering systems ever since!
+
+<details>
+<summary>📚 Click to expand Educational Background</summary>
 
 - **Early Computer Introduction** - Introduced to computers at age 8, developing a strong passion for technology and computing
 - **Reverse Engineering** - Analyzed systems to understand their inner workings and architecture
@@ -21,7 +33,10 @@ I'm a passionate developer focused on building innovative solutions and explorin
 - **Current AP Courses** - Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
 - **Strong Foundation** - Comprehensive understanding across multiple programming paradigms
 
-**Technical Skills:**
+</details>
+
+<details>
+<summary>🛠️ Click to expand Technical Skills</summary>
 
 - **Python** - Primary language for automation and backend development
 - **Java** - Enterprise application and system development
@@ -37,6 +52,8 @@ I'm a passionate developer focused on building innovative solutions and explorin
 - **HTML/CSS** - Web development and styling
 - **Video Processing** - Automated content creation workflows
 - **Data Analysis** - Educational workflow automation tools
+
+</details>
 
 ## Tech Stack
 
@@ -79,7 +96,8 @@ I'm a passionate developer focused on building innovative solutions and explorin
 
 </div>
 
-## Current Focus
+<details>
+<summary>🎯 Click to expand Current Focus</summary>
 
 - **Cisco Mentorship Program** - Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Passion-Driven Development** - Working on projects that align with my interests and technical goals
@@ -89,29 +107,60 @@ I'm a passionate developer focused on building innovative solutions and explorin
 - Exploring microservices architecture
 - Learning mobile development patterns
 
-## GitHub Stats
+</details>
+
+## 📊 GitHub Metrics
+
+<details>
+<summary>📈 Click to expand GitHub Stats</summary>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ethanstoner&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
 </div>
 
-## GitHub Trophies
+</details>
+
+<details>
+<summary>🏆 Click to expand GitHub Trophies</summary>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ethanstoner&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
-## Streak Stats
+</details>
+
+<details>
+<summary>🔥 Click to expand Contribution Streak</summary>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=ethanstoner&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_bust=1761858043" alt="GitHub Streak" />
 </div>
 
-## Featured Projects
+</details>
+
+<div align="center">
+  
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ethanstoner&theme=github-dark&hide_border=true&area=true)
+
+</div>
+
+## 💻 Featured Projects
+
+<div align="center">
+  
+<a href="https://github.com/ethanstoner/humanlike-typer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=humanlike-typer&theme=dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/ethanstoner/Quiz-Sorter-Program">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=Quiz-Sorter-Program&theme=dark&hide_border=true" />
+</a>
+
+</div>
 
 ### HumanLike Typer
-**Realistic human typing emulator for macOS**
+**Realistic human typing emulator for macOS & Windows**
 
 A sophisticated typing automation tool that simulates realistic human typing patterns with QWERTY-based typos, variable speed (90-130 WPM), and natural rhythm. Features include smart punctuation conversion, GUI configuration, and seamless integration with macOS.
 
@@ -147,13 +196,17 @@ An automated video processing system that segments long-form content into short-
 - Ready-to-upload social media formatting
 - Built with Python, ffmpeg, and MoviePy
 
-### Additional Projects
+<details>
+<summary>📦 Click to expand Additional Projects</summary>
+
 - Automation scripts in Python
 - Web applications with Node.js
 - Containerized microservices
 - Enterprise Java applications
 
-## Let's Connect
+</details>
+
+## 🤝 Let's Connect
 
 <div align="center">
 
@@ -166,9 +219,9 @@ An automated video processing system that segments long-form content into short-
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ethanstoner&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   
-  **Feel free to follow me — I'd really appreciate your support!**
+  **Feel free to follow me — I'd really appreciate your support!** ⭐
+  
 </div>
 
 ---
