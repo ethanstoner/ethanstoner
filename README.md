@@ -28,6 +28,18 @@ If I have to do something more than once, I automate it. There's something satis
 
 ## <span style="color: #00D4FF;">Featured Projects</span>
 
+<div align="center">
+  
+<a href="https://github.com/ethanstoner/humanlike-typer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=humanlike-typer&theme=dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/ethanstoner/Quiz-Sorter-Program">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=Quiz-Sorter-Program&theme=dark&hide_border=true" />
+</a>
+
+</div>
+
 ### <span style="color: #00D4FF;">Quiz Sorter for TAs</span>
 **Professional tool for organizing quiz data with attendance tracking** | Built with Python
 
@@ -124,7 +136,7 @@ Currently learning Docker, microservices, and business strategy through the Cisc
 </div>
 
 <div align="center">
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ethanstoner&theme=github-dark&hide_border=true&area=true)
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ethanstoner&theme=github-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </div>
 
 ---
