@@ -20,7 +20,7 @@
 
 ## About Me
 
-I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with Cisco professionals, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability—focusing on passion-driven work with strategic business guidance.
+I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with Cisco professionals, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability. I focus on passion-driven work with strategic business guidance.
 
 ## Automation Philosophy
 
@@ -30,38 +30,61 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 ## Rapid Fire
 
-- **I'm currently working on:** Building monetizable projects through the Cisco mentorship program and developing automation tools
-- **I'm currently learning:** Business strategy, subscription models, Docker containerization, and microservices architecture
-- **Ask me about:** Python automation, macOS development with Hammerspoon, reverse engineering, or cybersecurity
-- **Fun fact:** I started coding in 8th grade and have been fascinated with reverse engineering systems ever since!
+<details>
+<summary><strong>I'm currently working on</strong></summary>
+
+Building monetizable projects through the Cisco mentorship program and developing automation tools that make life easier.
+
+</details>
+
+<details>
+<summary><strong>I'm currently learning</strong></summary>
+
+Business strategy, subscription models, Docker containerization, and microservices architecture. Always trying to level up my skills!
+
+</details>
+
+<details>
+<summary><strong>Ask me about</strong></summary>
+
+Python automation, macOS development with Hammerspoon, reverse engineering, or cybersecurity. I love talking about this stuff!
+
+</details>
+
+<details>
+<summary><strong>Fun fact</strong></summary>
+
+I started coding in 8th grade and have been fascinated with reverse engineering systems ever since!
+
+</details>
 
 ## Educational Background
 
-- **Early Computer Introduction** - Introduced to computers at age 8, developing a strong passion for technology and computing
-- **Reverse Engineering** - Analyzed systems to understand their inner workings and architecture
-- **Cybersecurity Research** - Studied major cyberthreats throughout history, learning how vulnerabilities were exploited and how attacks were mitigated
-- **Military Cyberwarfare** - Researched cybersecurity applications in military operations and national defense
-- **First Coding Experience** - Discovered passion for programming in 8th grade STEM class
-- **High School Computer Science** - Completed 3 years including AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
-- **Current AP Courses** - Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
-- **Strong Foundation** - Comprehensive understanding across multiple programming paradigms
+- **Early Computer Introduction**: Introduced to computers at age 8, developing a strong passion for technology and computing
+- **Reverse Engineering**: Analyzed systems to understand their inner workings and architecture
+- **Cybersecurity Research**: Studied major cyberthreats throughout history, learning how vulnerabilities were exploited and how attacks were mitigated
+- **Military Cyberwarfare**: Researched cybersecurity applications in military operations and national defense
+- **First Coding Experience**: Discovered passion for programming in 8th grade STEM class
+- **High School Computer Science**: Completed 3 years including AP Computer Science Principles (JavaScript with blocks), Python programming, and Java development courses
+- **Current AP Courses**: Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
+- **Strong Foundation**: Comprehensive understanding across multiple programming paradigms
 
 ## Technical Skills
 
-- **Python** - Primary language for automation and backend development
-- **Java** - Enterprise application and system development
-- **JavaScript** - Dynamic web application development
-- **Lua** - Scripting and automation for macOS (Hammerspoon)
-- **API Development** - Making HTTP requests, API calls, webhooks, and third-party integrations
-- **Cybersecurity** - Vulnerability analysis, attack vectors, and defense mechanisms
-- **AI Integration** - Leveraging AI tools to enhance development efficiency
-- **Reverse Engineering** - System analysis and architecture understanding
-- **RF/Hardware Hacking** - Radio signal processing, infrared emulation, and hardware analysis
-- **Docker** - Containerization and deployment
-- **Node.js** - Server-side JavaScript development
-- **HTML/CSS** - Web development and styling
-- **Video Processing** - Automated content creation workflows
-- **Data Analysis** - Educational workflow automation tools
+- **Python**: Primary language for automation and backend development
+- **Java**: Enterprise application and system development
+- **JavaScript**: Dynamic web application development
+- **Lua**: Scripting and automation for macOS (Hammerspoon)
+- **API Development**: Making HTTP requests, API calls, webhooks, and third-party integrations
+- **Cybersecurity**: Vulnerability analysis, attack vectors, and defense mechanisms
+- **AI Integration**: Leveraging AI tools to enhance development efficiency
+- **Reverse Engineering**: System analysis and architecture understanding
+- **RF/Hardware Hacking**: Radio signal processing, infrared emulation, and hardware analysis
+- **Docker**: Containerization and deployment
+- **Node.js**: Server-side JavaScript development
+- **HTML/CSS**: Web development and styling
+- **Video Processing**: Automated content creation workflows
+- **Data Analysis**: Educational workflow automation tools
 
 ## Tech Stack
 
@@ -106,9 +129,9 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 ## Current Focus
 
-- **Cisco Mentorship Program** - Learning to build monetizable projects and subscription-based businesses with profitability analysis
-- **Passion-Driven Development** - Working on projects that align with my interests and technical goals
-- **Business Strategy** - Understanding project viability through revenue analysis and cost evaluation
+- **Cisco Mentorship Program**: Learning to build monetizable projects and subscription-based businesses with profitability analysis
+- **Passion-Driven Development**: Working on projects that align with my interests and technical goals
+- **Business Strategy**: Understanding project viability through revenue analysis and cost evaluation
 - Building modern web applications
 - Mastering containerization with Docker
 - Exploring microservices architecture
@@ -198,7 +221,7 @@ An automated video processing system that segments long-form content into short-
 
 <div align="center">
   
-  **Feel free to follow me — I'd really appreciate your support!**
+  **Feel free to follow me. I'd really appreciate your support!**
   
 </div>
 
