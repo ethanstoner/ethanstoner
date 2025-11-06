@@ -28,10 +28,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 > *"Why spend 6 minutes doing something when you can spend 6 hours trying to automate it?"*
 
-## Educational Background
-
-<details>
-<summary>Click to expand</summary>
+<details open>
+<summary><strong>Educational Background</strong></summary>
 
 - **Early Computer Introduction**: Introduced to computers at age 8, developing a strong passion for technology and computing
 - **Reverse Engineering**: Analyzed systems to understand their inner workings and architecture
@@ -44,10 +42,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </details>
 
-## Technical Skills
-
-<details>
-<summary>Click to expand</summary>
+<details open>
+<summary><strong>Technical Skills</strong></summary>
 
 - **Python**: Primary language for automation and backend development
 - **Java**: Enterprise application and system development
@@ -66,10 +62,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </details>
 
-## Tech Stack
-
-<details>
-<summary>Click to expand</summary>
+<details open>
+<summary><strong>Tech Stack</strong></summary>
 
 <div align="center">
 
@@ -112,10 +106,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </details>
 
-## Current Focus
-
-<details>
-<summary>Click to expand</summary>
+<details open>
+<summary><strong>Current Focus</strong></summary>
 
 - **Cisco Mentorship Program**: Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Passion-Driven Development**: Working on projects that align with my interests and technical goals
@@ -127,10 +119,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </details>
 
-## GitHub Metrics
-
-<details>
-<summary>Click to expand GitHub Stats</summary>
+<details open>
+<summary><strong>GitHub Metrics</strong></summary>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
@@ -150,10 +140,8 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </div>
 
-## Featured Projects
-
-<details>
-<summary>Click to expand</summary>
+<details open>
+<summary><strong>Featured Projects</strong></summary>
 
 <div align="center">
   
