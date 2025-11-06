@@ -28,37 +28,10 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 > *"Why spend 6 minutes doing something when you can spend 6 hours trying to automate it?"*
 
-## Rapid Fire
-
-<details>
-<summary><strong>I'm currently working on</strong></summary>
-
-Building monetizable projects through the Cisco mentorship program and developing automation tools that make life easier.
-
-</details>
-
-<details>
-<summary><strong>I'm currently learning</strong></summary>
-
-Business strategy, subscription models, Docker containerization, and microservices architecture. Always trying to level up my skills!
-
-</details>
-
-<details>
-<summary><strong>Ask me about</strong></summary>
-
-Python automation, macOS development with Hammerspoon, reverse engineering, or cybersecurity. I love talking about this stuff!
-
-</details>
-
-<details>
-<summary><strong>Fun fact</strong></summary>
-
-I started coding in 8th grade and have been fascinated with reverse engineering systems ever since!
-
-</details>
-
 ## Educational Background
+
+<details>
+<summary>Click to expand</summary>
 
 - **Early Computer Introduction**: Introduced to computers at age 8, developing a strong passion for technology and computing
 - **Reverse Engineering**: Analyzed systems to understand their inner workings and architecture
@@ -69,7 +42,12 @@ I started coding in 8th grade and have been fascinated with reverse engineering 
 - **Current AP Courses**: Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
 - **Strong Foundation**: Comprehensive understanding across multiple programming paradigms
 
+</details>
+
 ## Technical Skills
+
+<details>
+<summary>Click to expand</summary>
 
 - **Python**: Primary language for automation and backend development
 - **Java**: Enterprise application and system development
@@ -86,7 +64,12 @@ I started coding in 8th grade and have been fascinated with reverse engineering 
 - **Video Processing**: Automated content creation workflows
 - **Data Analysis**: Educational workflow automation tools
 
+</details>
+
 ## Tech Stack
+
+<details>
+<summary>Click to expand</summary>
 
 <div align="center">
 
@@ -127,7 +110,12 @@ I started coding in 8th grade and have been fascinated with reverse engineering 
 
 </div>
 
+</details>
+
 ## Current Focus
+
+<details>
+<summary>Click to expand</summary>
 
 - **Cisco Mentorship Program**: Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Passion-Driven Development**: Working on projects that align with my interests and technical goals
@@ -136,6 +124,8 @@ I started coding in 8th grade and have been fascinated with reverse engineering 
 - Mastering containerization with Docker
 - Exploring microservices architecture
 - Learning mobile development patterns
+
+</details>
 
 ## GitHub Metrics
 
@@ -161,6 +151,9 @@ I started coding in 8th grade and have been fascinated with reverse engineering 
 </div>
 
 ## Featured Projects
+
+<details>
+<summary>Click to expand</summary>
 
 <div align="center">
   
@@ -216,6 +209,8 @@ An automated video processing system that segments long-form content into short-
 - Web applications with Node.js
 - Containerized microservices
 - Enterprise Java applications
+
+</details>
 
 ---
 
