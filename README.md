@@ -1,27 +1,3 @@
-<style>
-  .anchor {
-    display: none !important;
-  }
-  h2 .anchor,
-  h3 .anchor,
-  h4 .anchor {
-    display: none !important;
-  }
-  .section-header {
-    color: #00D4FF;
-    border-bottom: 2px solid #00D4FF;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  .highlight {
-    color: #00D4FF;
-  }
-  .sub-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-</style>
-
 # Hello, I'm Ethan!
 
 <div align="center">
@@ -42,13 +18,13 @@
 
 ---
 
-## <span style="color: #00D4FF;">💼 About Me</span>
+## <span style="color: #00D4FF;">About Me</span>
 
-I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with <span class="highlight">Cisco professionals</span>, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability. I focus on passion-driven work with strategic business guidance.
+I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with <span style="color: #00D4FF;">Cisco professionals</span>, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability. I focus on passion-driven work with strategic business guidance.
 
 ---
 
-## <span style="color: #00D4FF;">⚙️ Automation Philosophy</span>
+## <span style="color: #00D4FF;">Automation Philosophy</span>
 
 If I have to do something more than once, I'll probably automate it. There's something satisfying about turning a boring, repetitive task into a script that just works. Plus, it means I can focus on the fun stuff instead of doing the same thing over and over again.
 
@@ -57,9 +33,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 ---
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">🎓 Educational Background</span></h2></summary>
-
-<div class="sub-section">
+<summary><h2><span style="color: #00D4FF;">Educational Background</span></h2></summary>
 
 - <span style="color: #00D4FF;">**Early Computer Introduction**</span>: Introduced to computers at age 8, developing a strong passion for technology and computing
 - <span style="color: #00D4FF;">**Reverse Engineering**</span>: Analyzed systems to understand their inner workings and architecture
@@ -70,14 +44,10 @@ If I have to do something more than once, I'll probably automate it. There's som
 - <span style="color: #00D4FF;">**Current AP Courses**</span>: Enrolled in AP Calculus AB, AP Statistics, and AP English Literature
 - <span style="color: #00D4FF;">**Strong Foundation**</span>: Comprehensive understanding across multiple programming paradigms
 
-</div>
-
 </details>
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">🛠️ Technical Skills</span></h2></summary>
-
-<div class="sub-section">
+<summary><h2><span style="color: #00D4FF;">Technical Skills</span></h2></summary>
 
 - <span style="color: #00D4FF;">**Python**</span>: Primary language for automation and backend development
 - <span style="color: #00D4FF;">**Java**</span>: Enterprise application and system development
@@ -94,12 +64,10 @@ If I have to do something more than once, I'll probably automate it. There's som
 - <span style="color: #00D4FF;">**Video Processing**</span>: Automated content creation workflows
 - <span style="color: #00D4FF;">**Data Analysis**</span>: Educational workflow automation tools
 
-</div>
-
 </details>
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">💻 Tech Stack</span></h2></summary>
+<summary><h2><span style="color: #00D4FF;">Tech Stack</span></h2></summary>
 
 <div align="center">
 
@@ -143,9 +111,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </details>
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">🎯 Current Focus</span></h2></summary>
-
-<div class="sub-section">
+<summary><h2><span style="color: #00D4FF;">Current Focus</span></h2></summary>
 
 - <span style="color: #00D4FF;">**Cisco Mentorship Program**</span>: Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - <span style="color: #00D4FF;">**Passion-Driven Development**</span>: Working on projects that align with my interests and technical goals
@@ -155,12 +121,10 @@ If I have to do something more than once, I'll probably automate it. There's som
 - Exploring microservices architecture
 - Learning mobile development patterns
 
-</div>
-
 </details>
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">📊 GitHub Metrics</span></h2></summary>
+<summary><h2><span style="color: #00D4FF;">GitHub Metrics</span></h2></summary>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
@@ -181,7 +145,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </div>
 
 <details open>
-<summary><h2><span style="color: #00D4FF;">🚀 Featured Projects</span></h2></summary>
+<summary><h2><span style="color: #00D4FF;">Featured Projects</span></h2></summary>
 
 <div align="center">
   
@@ -195,7 +159,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 
 </div>
 
-### <span style="color: #00D4FF;">⌨️ HumanLike Typer</span>
+### <span style="color: #00D4FF;">HumanLike Typer</span>
 **Realistic human typing emulator for macOS & Windows**
 
 A sophisticated typing automation tool that simulates realistic human typing patterns with QWERTY-based typos, variable speed (90-130 WPM), and natural rhythm. Features include smart punctuation conversion, GUI configuration, and seamless integration with macOS.
@@ -204,13 +168,13 @@ A sophisticated typing automation tool that simulates realistic human typing pat
 - Variable speed (90-130 WPM) with natural rhythm and pauses
 - Smart punctuation conversion for seamless typing
 - GUI configuration for speed and typo frequency
-- Built with <span class="highlight">Lua and Hammerspoon</span>
+- Built with <span style="color: #00D4FF;">Lua and Hammerspoon</span>
 
 [View on GitHub](https://github.com/ethanstoner/humanlike-typer)
 
 ---
 
-### <span style="color: #00D4FF;">📝 Quiz Sorter for TAs</span>
+### <span style="color: #00D4FF;">Quiz Sorter for TAs</span>
 **Professional tool for organizing Wayground quiz data with attendance tracking**
 
 A comprehensive solution designed specifically for Teaching Assistants to streamline quiz data processing. Features intelligent name matching, attendance integration, multi-quiz merging, and professional PDF output generation.
@@ -219,13 +183,13 @@ A comprehensive solution designed specifically for Teaching Assistants to stream
 - Alphabetical sorting with professional PDF output
 - Smart retakes support preserving higher scores
 - Multi-quiz merge with configurable curve caps
-- Built with <span class="highlight">Python</span>
+- Built with <span style="color: #00D4FF;">Python</span>
 
 [View on GitHub](https://github.com/ethanstoner/Quiz-Sorter-Program)
 
 ---
 
-### <span style="color: #00D4FF;">🎬 MP4 to Short-Form Video Editor</span>
+### <span style="color: #00D4FF;">MP4 to Short-Form Video Editor</span>
 **Social media content creation and scheduling tool**
 
 An automated video processing system that segments long-form content into short-form videos optimized for social media platforms. Includes dynamic title generation, text overlay, and intelligent scheduling.
@@ -234,11 +198,11 @@ An automated video processing system that segments long-form content into short-
 - Dynamic title and text overlay generation with MoviePy
 - Smart scheduling avoiding inactive hours (4-hour intervals)
 - Ready-to-upload social media formatting
-- Built with <span class="highlight">Python, ffmpeg, and MoviePy</span>
+- Built with <span style="color: #00D4FF;">Python, ffmpeg, and MoviePy</span>
 
 ---
 
-### <span style="color: #00D4FF;">📦 Additional Projects</span>
+### <span style="color: #00D4FF;">Additional Projects</span>
 - Automation scripts in Python
 - Web applications with Node.js
 - Containerized microservices
