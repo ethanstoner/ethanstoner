@@ -1,3 +1,14 @@
+<style>
+  .anchor {
+    display: none !important;
+  }
+  h2 .anchor,
+  h3 .anchor,
+  h4 .anchor {
+    display: none !important;
+  }
+</style>
+
 # Hello, I'm Ethan!
 
 <div align="center">
