@@ -4,6 +4,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Python+Developer;Java+Developer;JavaScript+Developer;Full+Stack+Developer;Automation+Engineer;macOS+%26+Windows+Developer" alt="Typing SVG" />
 </div>
 
+## <span style="color: #00D4FF;">Contact Me</span>
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ethanstoner)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eastoner)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=ethanstoner08@gmail.com&su=Hello%20Ethan&body=Hi%20Ethan,)
+
+</div>
+
 ---
 
 ## <span style="color: #00D4FF;">About Me</span>
@@ -200,20 +210,6 @@ An automated video processing system that segments long-form content into short-
 
 ---
 
-<details open>
-<summary><h2><span style="color: #00D4FF;">Contact Me</span></h2></summary>
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ethanstoner)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eastoner)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=ethanstoner08@gmail.com&su=Hello%20Ethan&body=Hi%20Ethan,)
-
-</div>
-
-</details>
-
----
 
 <div align="center">
   
