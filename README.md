@@ -22,6 +22,12 @@
 
 I'm a passionate developer focused on building innovative solutions and exploring cutting-edge technologies. Currently enrolled in a computer science mentorship program with Cisco professionals, where I'm learning to create monetizable projects, process subscriptions, and analyze profitability—focusing on passion-driven work with strategic business guidance.
 
+## Automation Philosophy
+
+I believe in automating everything—if a task is repetitive, tedious, or time-consuming, it deserves to be automated. Automation isn't just about saving time; it's about eliminating human error, ensuring consistency, and freeing up mental energy for more creative and impactful work. Whether it's a simple script to organize files or a complex system to streamline entire workflows, I find joy in building solutions that make life easier.
+
+> *"Why spend 6 minutes doing something when you can spend 6 hours trying to automate it?"*
+
 ## Rapid Fire
 
 - **I'm currently working on:** Building monetizable projects through the Cisco mentorship program and developing automation tools
