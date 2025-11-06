@@ -47,8 +47,6 @@ A comprehensive solution for Teaching Assistants that streamlines quiz data proc
 
 **Impact**: Used to process quizzes for 200+ students, saving 10+ hours weekly on manual data organization.
 
-[View on GitHub](https://github.com/ethanstoner/Quiz-Sorter-Program) | [Full Project List](https://github.com/ethanstoner?tab=repositories)
-
 ---
 
 ### <span style="color: #00D4FF;">MP4 to Short-Form Video Editor</span>
@@ -64,8 +62,6 @@ An automated system that segments long-form content into short-form videos optim
 **Realistic human typing emulator for macOS & Windows** | Built with Lua and Hammerspoon
 
 A sophisticated typing automation tool that simulates realistic human typing patterns with QWERTY-based typos, variable speed (90-130 WPM), and natural rhythm.
-
-[View on GitHub](https://github.com/ethanstoner/humanlike-typer)
 
 ---
 
@@ -99,18 +95,6 @@ A sophisticated typing automation tool that simulates realistic human typing pat
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
-
----
-
-## <span style="color: #00D4FF;">What I'm Looking For</span>
-
-I'm seeking **internship or junior developer roles** where I can:
-- Build automation tools that solve real problems
-- Learn microservices architecture and containerization
-- Contribute to product development and business strategy
-- Work with experienced teams on monetizable projects
-
-Currently learning Docker, microservices, and business strategy through the Cisco mentorship program.
 
 ---
 
