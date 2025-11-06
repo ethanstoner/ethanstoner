@@ -29,7 +29,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 > *"Why spend 6 minutes doing something when you can spend 6 hours trying to automate it?"*
 
 <details open>
-<summary><strong>Educational Background</strong></summary>
+<summary><h2>Educational Background</h2></summary>
 
 - **Early Computer Introduction**: Introduced to computers at age 8, developing a strong passion for technology and computing
 - **Reverse Engineering**: Analyzed systems to understand their inner workings and architecture
@@ -43,7 +43,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </details>
 
 <details open>
-<summary><strong>Technical Skills</strong></summary>
+<summary><h2>Technical Skills</h2></summary>
 
 - **Python**: Primary language for automation and backend development
 - **Java**: Enterprise application and system development
@@ -63,7 +63,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </details>
 
 <details open>
-<summary><strong>Tech Stack</strong></summary>
+<summary><h2>Tech Stack</h2></summary>
 
 <div align="center">
 
@@ -107,7 +107,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </details>
 
 <details open>
-<summary><strong>Current Focus</strong></summary>
+<summary><h2>Current Focus</h2></summary>
 
 - **Cisco Mentorship Program**: Learning to build monetizable projects and subscription-based businesses with profitability analysis
 - **Passion-Driven Development**: Working on projects that align with my interests and technical goals
@@ -120,7 +120,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </details>
 
 <details open>
-<summary><strong>GitHub Metrics</strong></summary>
+<summary><h2>GitHub Metrics</h2></summary>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ethanstoner&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
@@ -141,7 +141,7 @@ If I have to do something more than once, I'll probably automate it. There's som
 </div>
 
 <details open>
-<summary><strong>Featured Projects</strong></summary>
+<summary><h2>Featured Projects</h2></summary>
 
 <div align="center">
   
