@@ -32,6 +32,10 @@ If I have to do something more than once, I automate it. There's something satis
 
 <div align="center">
   
+<a href="https://github.com/ethanstoner/delayedge">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=delayedge&theme=dark&hide_border=true" />
+</a>
+
 <a href="https://github.com/ethanstoner/humanlike-typer">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ethanstoner&repo=humanlike-typer&theme=dark&hide_border=true" />
 </a>
@@ -41,6 +45,15 @@ If I have to do something more than once, I automate it. There's something satis
 </a>
 
 </div>
+
+### <span style="color: #00D4FF;">DelayEdge - Automated Trading System</span>
+**Automated arbitrage trading system for HowTheMarketWorks.com** | Built with Python
+
+An intelligent trading system that exploits price delays between real-time market data and HTMW's delayed prices to identify and execute profitable arbitrage opportunities. Features automated position monitoring, fixed target pricing, and market hours protection.
+
+**Key Features**: Real-time price scanning, automated trade execution, position tracking, and risk management.
+
+---
 
 ### <span style="color: #00D4FF;">Quiz Sorter for TAs</span>
 **Professional tool for organizing quiz data with attendance tracking** | Built with Python
