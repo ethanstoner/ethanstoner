@@ -30,24 +30,45 @@ End-to-end testing ecosystem with:
 
 ---
 
-### **ElevenLabs-Style Web Application Clone**
-- Modern UI with animations, responsive design, auth system  
-- Web Audio API interactions  
-- Full Playwright test suite  
-- Dockerized multi-container setup  
-➡️ *Shows full-stack UI + testing discipline*
+### **DelayEdge - Automated Trading System**
+- Automated arbitrage trading system for HowTheMarketWorks.com  
+- Real-time price scanning and automated trade execution  
+- Position tracking and risk management  
+- Market hours protection and fixed target pricing  
+➡️ *Demonstrates algorithmic trading, automation, and financial system integration*
 
-**Repo:** _Link your ElevenLabs-style clone repository_
+**Repo:** [delayedge](https://github.com/ethanstoner/delayedge)
 
 ---
 
-### **Canvas LMS Automation Tool**
-- Automated retrieval of assignments from Canvas API  
-- Secure token handling, error checking  
-- Sorted structured output + summary metrics  
-➡️ *Real-world API integration & automation*
+### **Vulture - Minecraft Mod Decompiler**
+- Comprehensive toolkit for analyzing, decompiling, and deobfuscating Minecraft mods  
+- Static analysis, security detection, and isolated Docker execution  
+- Multiple decompiler support (CFR, JD-CLI, Fernflower)  
+- Automatic tool installation and mapping downloads  
+➡️ *Shows reverse engineering, security analysis, and containerization skills*
 
-**Repo:** _Link your Canvas automation repository_
+**Repo:** [vulture](https://github.com/ethanstoner/vulture)
+
+---
+
+### **Exploding Ball Engine**
+- Simple game engine demonstrating core game development principles  
+- Physics simulation and collision detection  
+- Clean architecture and modular design  
+➡️ *Shows game development fundamentals and engine design*
+
+**Repo:** [exploding-ball-engine](https://github.com/ethanstoner/exploding-ball-engine)
+
+---
+
+### **HumanLike Typer**
+- Realistic human typing emulator for macOS & Windows  
+- QWERTY-based typos, variable speed (90-130 WPM)  
+- Natural rhythm simulation using Lua and Hammerspoon  
+➡️ *Demonstrates automation, system integration, and realistic behavior simulation*
+
+**Repo:** [humanlike-typer](https://github.com/ethanstoner/humanlike-typer)
 
 ---
 
