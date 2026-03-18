@@ -1,155 +1,239 @@
-# Hi, I'm Ethan — Cloud & Automation Engineer
+<div align="center">
 
-I build cloud-ready applications, self-hosted production platforms, and AI-powered workflows using **AWS, Python, TypeScript, Docker, CI/CD pipelines, and ComfyUI**.
-My focus is on reliability, automation, clean architecture, and understanding how systems work end-to-end — from GPU inference to deployment infrastructure.
+# Ethan Stoner
 
-I'm currently preparing for the **AWS Cloud Practitioner (CLF-C02)** certification and expanding into cloud architecture, IAM, EC2, container services, and infrastructure best practices.
+**Cloud & Automation Engineer**
 
----
+Building cloud-ready systems, self-hosted production platforms, and AI-powered workflows.
+From GPU inference to deployment infrastructure — I ship real systems that serve real users.
 
-## Technical Focus
-- **Cloud & DevOps:** AWS, Docker, GitHub Actions, CI/CD, Self-Hosted Deployment, System Administration
-- **AI & GPU Workflows:** ComfyUI Pipelines, Local Model Inference, GPU Workload Management, Model I/O Processing
-- **Automation & QA:** Playwright, pytest, Jest, Workflow Automation, Automation Scripting
-- **Languages:** Python, TypeScript/JavaScript, Java
-- **Web & Systems:** Full-Stack Web Apps, REST APIs, Git, DNS & Domain Configuration, Uptime & Site Reliability
+[![Portfolio](https://img.shields.io/badge/Portfolio-ethanstoner.github.io-0A0A0A?style=for-the-badge&logo=github&logoColor=white)](https://ethanstoner.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eastoner-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eastoner)
+[![Email](https://img.shields.io/badge/Email-ethanstoner08%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ethanstoner08@gmail.com)
 
----
-
-## Featured Projects
-
-### **UGC 3D Model Generation Platform**
-- Built and self-hosted a full-stack web platform generating 3D models via local AI inference on personal GPU
-- Configured ComfyUI pipelines, managed system runtime, and handled model I/O processing on dedicated hardware
-- Diagnosed and resolved GPU driver conflicts, model compatibility issues, and performance bottlenecks
-
-➡️ *End-to-end platform engineering — from GPU workloads to production deployment*
-
-**Live:** [ugc.fluximetry.com](https://ugc.fluximetry.com)
+</div>
 
 ---
 
-### **GSI Business Website**
-- Developed and self-hosted a production business website on a dedicated secondary PC with responsive design
-- Managed DNS configuration, domain setup, and ongoing system maintenance and monitoring independently
+### `> whoami`
 
-➡️ *Full ownership of a production deployment — development through infrastructure and reliability*
+```
+Cloud & Automation Engineer with hands-on experience self-hosting production
+web applications, running AI inference workloads on local GPU hardware, and
+managing deployment infrastructure end-to-end.
 
-**Live:** [gsi.fluximetry.com](https://gsi.fluximetry.com)
-
----
-
-### **Freelance Web Development**
-- Delivered production websites for small business clients using GitHub Pages and managed hosting platforms
-- Integrated REST APIs, managed client requirements, and iterated through structured deployment workflows
-
-➡️ *Real client work — professional communication, requirements gathering, and end-to-end delivery*
+Currently pursuing AWS Certified Cloud Practitioner (CLF-C02).
+```
 
 ---
 
-### **AI-Generated 3D Digital Assets**
-- Generate and sell custom 3D assets using ComfyUI pipelines and locally hosted AI models on personal GPU
-- Manage end-to-end workflow from model configuration and inference tuning to asset packaging and delivery
+### `> tech --stack`
 
-➡️ *Technical AI/GPU skills combined with entrepreneurship — real revenue from self-built infrastructure*
-
----
-
-### **QA Automation Framework (Python + TypeScript)**
-- 90%+ coverage using pytest & Jest
-- Browser testing via Playwright
-- Static analysis (ESLint, Pylint)
-- Full Dockerized environment for consistent execution
-- HTML/JSON reporting, backlog tracking
-
-➡️ *A production-style automation platform demonstrating QA engineering + DevOps skills*
-
-**Repo:** [qa-instructions](https://github.com/ethanstoner/qa-instructions)
-
----
-
-### **DelayEdge - Automated Trading System**
-- Automated arbitrage trading system for HowTheMarketWorks.com
-- Real-time price scanning and automated trade execution
-- Position tracking and risk management with market hours protection
-
-➡️ *Demonstrates algorithmic trading, automation, and financial system integration*
-
-**Repo:** [delayedge](https://github.com/ethanstoner/delayedge)
-
----
-
-### **Vulture - Minecraft Mod Decompiler**
-- Comprehensive toolkit for analyzing, decompiling, and deobfuscating Minecraft mods
-- Static analysis, security detection, and isolated Docker execution
-- Multiple decompiler support (CFR, JD-CLI, Fernflower)
-
-➡️ *Shows reverse engineering, security analysis, and containerization skills*
-
-**Repo:** [vulture](https://github.com/ethanstoner/vulture)
-
----
-
-### **Exploding Ball Engine**
-- Simple game engine demonstrating core game development principles
-- Physics simulation, collision detection, and clean modular architecture
-
-**Repo:** [exploding-ball-engine](https://github.com/ethanstoner/exploding-ball-engine)
-
----
-
-### **HumanLike Typer**
-- Realistic human typing emulator for macOS & Windows
-- QWERTY-based typos, variable speed (90-130 WPM), natural rhythm simulation
-
-**Repo:** [humanlike-typer](https://github.com/ethanstoner/humanlike-typer)
+<table>
+<tr>
+<td><b>Cloud & DevOps</b></td>
+<td>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/Self--Hosted-333?style=flat-square&logo=serverfault&logoColor=white" alt="Self-Hosted">
+</td>
+</tr>
+<tr>
+<td><b>AI & GPU</b></td>
+<td>
+<img src="https://img.shields.io/badge/ComfyUI-333?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgcng9IjIiLz48cGF0aCBkPSJNOSA5aDZNOSAxMmg2TTkgMTVoNiIvPjwvc3ZnPg==&logoColor=white" alt="ComfyUI">
+<img src="https://img.shields.io/badge/Local_Inference-333?style=flat-square&logo=nvidia&logoColor=76B900" alt="Local Inference">
+<img src="https://img.shields.io/badge/GPU_Workloads-333?style=flat-square&logo=nvidia&logoColor=76B900" alt="GPU Workloads">
+</td>
+</tr>
+<tr>
+<td><b>Languages</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+</td>
+</tr>
+<tr>
+<td><b>Automation & QA</b></td>
+<td>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
+<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest">
+</td>
+</tr>
+<tr>
+<td><b>Web & Systems</b></td>
+<td>
+<img src="https://img.shields.io/badge/REST_APIs-333?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/DNS_&_Domains-333?style=flat-square&logo=cloudflare&logoColor=F38020" alt="DNS">
+<img src="https://img.shields.io/badge/Full--Stack-333?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Full-Stack">
+</td>
+</tr>
+</table>
 
 ---
 
-### **Portfolio Website**
-- Clean design, animation, responsive layout
-- Automated Playwright testing suite
-- CI + Docker deployment
+### `> ls projects/`
 
-**Repo:** [ethanstoner.github.io](https://github.com/ethanstoner/ethanstoner.github.io) | **Live:** [ethanstoner.github.io](https://ethanstoner.github.io)
+<details>
+<summary><b>UGC 3D Model Generation Platform</b> &mdash; <i>Self-hosted AI inference platform</i></summary>
+
+<br>
+
+> Full-stack web platform generating 3D models via local AI inference on personal GPU hardware.
+> Configured ComfyUI pipelines, managed system runtime, diagnosed GPU driver conflicts and performance bottlenecks.
+
+| | |
+|---|---|
+| **Stack** | Python, ComfyUI, Docker, Self-Hosted |
+| **Live** | [`ugc.fluximetry.com`](https://ugc.fluximetry.com) |
+
+</details>
+
+<details>
+<summary><b>GSI Business Website</b> &mdash; <i>Self-hosted production business site</i></summary>
+
+<br>
+
+> Production business website self-hosted on dedicated hardware with responsive design.
+> Managed DNS configuration, domain setup, and ongoing system maintenance independently.
+
+| | |
+|---|---|
+| **Stack** | JavaScript, HTML/CSS, Self-Hosted |
+| **Live** | [`gsi.fluximetry.com`](https://gsi.fluximetry.com) |
+
+</details>
+
+<details>
+<summary><b>QA Automation Framework</b> &mdash; <i>90%+ coverage testing ecosystem</i></summary>
+
+<br>
+
+> End-to-end testing ecosystem with pytest & Jest. Browser testing via Playwright,
+> static analysis (ESLint, Pylint), full Dockerized environment, HTML/JSON reporting.
+
+| | |
+|---|---|
+| **Stack** | Python, TypeScript, Playwright, Docker |
+| **Repo** | [`qa-instructions`](https://github.com/ethanstoner/qa-instructions) |
+
+</details>
+
+<details>
+<summary><b>AI-Generated 3D Digital Assets</b> &mdash; <i>Revenue-generating AI pipeline</i></summary>
+
+<br>
+
+> Generate and sell custom 3D assets using ComfyUI pipelines and locally hosted AI models.
+> End-to-end workflow from model configuration and inference tuning to asset packaging and delivery.
+
+| | |
+|---|---|
+| **Stack** | Python, ComfyUI, Local GPU |
+
+</details>
+
+<details>
+<summary><b>Freelance Web Development</b> &mdash; <i>Client production websites</i></summary>
+
+<br>
+
+> Delivered production websites for small business clients using GitHub Pages and managed hosting.
+> Integrated REST APIs, managed client requirements, and iterated through structured deployment workflows.
+
+| | |
+|---|---|
+| **Stack** | JavaScript, HTML/CSS, GitHub Pages |
+
+</details>
+
+<details>
+<summary><b>DelayEdge</b> &mdash; <i>Automated arbitrage trading system</i></summary>
+
+<br>
+
+> Real-time price scanning, automated trade execution, position tracking, and risk management
+> with market hours protection for HowTheMarketWorks.com.
+
+| | |
+|---|---|
+| **Stack** | Python |
+| **Repo** | [`delayedge`](https://github.com/ethanstoner/delayedge) |
+
+</details>
+
+<details>
+<summary><b>Vulture</b> &mdash; <i>Minecraft mod decompiler & security analyzer</i></summary>
+
+<br>
+
+> Comprehensive toolkit for analyzing, decompiling, and deobfuscating Minecraft mods.
+> Static analysis, security detection, isolated Docker execution, multiple decompiler support.
+
+| | |
+|---|---|
+| **Stack** | Python, Java, Docker |
+| **Repo** | [`vulture`](https://github.com/ethanstoner/vulture) |
+
+</details>
+
+<details>
+<summary><b>More projects</b> &mdash; <i>Exploding Ball Engine, HumanLike Typer, Portfolio</i></summary>
+
+<br>
+
+| Project | Description | Repo |
+|---------|-------------|------|
+| **Exploding Ball Engine** | Physics simulation game engine with collision detection | [`exploding-ball-engine`](https://github.com/ethanstoner/exploding-ball-engine) |
+| **HumanLike Typer** | Realistic typing emulator, 90-130 WPM, macOS & Windows | [`humanlike-typer`](https://github.com/ethanstoner/humanlike-typer) |
+| **Portfolio** | Responsive portfolio with Playwright testing & CI/CD | [`ethanstoner.github.io`](https://github.com/ethanstoner/ethanstoner.github.io) |
+
+</details>
 
 ---
 
-## Work Experience
+### `> cat experience.log`
 
-**Cheryl's Caramels** — Team Member | Oceanside, CA
-Customer-facing role at markets and events. Processed transactions, maintained inventory, and communicated professionally in fast-paced environments.
+```
+Cheryl's Caramels          | Team Member    | Oceanside, CA
+  Customer-facing role at markets and events.
+  Processed transactions, maintained inventory, communicated
+  professionally in fast-paced, high-traffic environments.
 
-**TrashCan Powerwashing** — Co-Founder
-Co-founded a residential trash can cleaning business. Handled scheduling, customer outreach, and day-to-day service operations.
-
----
-
-## Education
-- **Great Oak High School** — Expected Graduation: June 2026
-- **AWS Certified Cloud Practitioner (CLF-C02)** — In Progress
-- AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Literature
-- Cisco Mentorship Program: Building monetizable projects and subscription-based businesses
+TrashCan Powerwashing      | Co-Founder     | Entrepreneurship
+  Co-founded residential cleaning business.
+  Handled scheduling, customer outreach, and operations.
+```
 
 ---
 
-## Currently Learning
-- AWS Cloud Practitioner (CLF-C02)
-- IAM, EC2, serverless fundamentals
-- Infrastructure design patterns
-- Cloud security + cost best practices
+### `> cat education.txt`
+
+```
+Great Oak High School                          | Expected Graduation: June 2026
+AWS Certified Cloud Practitioner (CLF-C02)     | In Progress
+AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit
+Cisco Mentorship Program                       | Monetizable projects & SaaS
+```
 
 ---
 
-## Career Goals
-Cloud Engineering | DevOps | Automation Engineering | AI Infrastructure | Platform Engineering
+<div align="center">
+
+### Currently Learning
+
+`AWS CLF-C02` `IAM & EC2` `Infrastructure Patterns` `Cloud Security` `Cost Optimization`
 
 ---
 
-## Portfolio
-➡️ [ethanstoner.github.io](https://ethanstoner.github.io)
+**Cloud Engineering** | **DevOps** | **Automation** | **AI Infrastructure** | **Platform Engineering**
 
-## Contact
-- **Email:** ethanstoner08@gmail.com
-- **GitHub:** [@ethanstoner](https://github.com/ethanstoner)
-- **LinkedIn:** [eastoner](https://linkedin.com/in/eastoner)
+[![Portfolio](https://img.shields.io/badge/ethanstoner.github.io-000?style=for-the-badge&logo=github&logoColor=white)](https://ethanstoner.github.io)
+
+</div>
