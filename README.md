@@ -17,7 +17,7 @@ From GPU inference to deployment infrastructure — I ship real systems that ser
 
 ## About Me
 
-I'm a cloud and automation-focused engineer with hands-on experience self-hosting production web applications, running AI inference workloads on local GPU hardware, and managing deployment infrastructure end-to-end. Currently pursuing the **AWS Certified Cloud Practitioner (CLF-C02)** and studying at **Great Oak High School** (graduating June 2026).
+I'm a cloud and automation-focused engineer with hands-on experience building computer vision systems, self-hosting production web applications, running AI inference workloads on local GPU hardware, and managing deployment infrastructure end-to-end. Currently pursuing the **AWS Certified Cloud Practitioner (CLF-C02)** and studying at **Great Oak High School** (graduating June 2026).
 
 <br>
 
@@ -35,11 +35,12 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 </td>
 </tr>
 <tr>
-<td><b>AI & GPU</b></td>
+<td><b>AI & CV</b></td>
 <td>
+<img src="https://img.shields.io/badge/YOLOv8-111?style=flat-square&logo=yolo&logoColor=00FFFF">
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
 <img src="https://img.shields.io/badge/ComfyUI-333?style=flat-square&logoColor=white">
-<img src="https://img.shields.io/badge/Local_Inference-333?style=flat-square&logo=nvidia&logoColor=76B900">
-<img src="https://img.shields.io/badge/GPU_Workloads-333?style=flat-square&logo=nvidia&logoColor=76B900">
+<img src="https://img.shields.io/badge/GPU_Inference-333?style=flat-square&logo=nvidia&logoColor=76B900">
 </td>
 </tr>
 <tr>
@@ -52,20 +53,20 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 </td>
 </tr>
 <tr>
-<td><b>Automation & QA</b></td>
+<td><b>Backend & Data</b></td>
 <td>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
-<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
-<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipsemosquitto&logoColor=white">
+<img src="https://img.shields.io/badge/REST_APIs-333?style=flat-square&logo=fastapi&logoColor=white">
 </td>
 </tr>
 <tr>
-<td><b>Web & Systems</b></td>
+<td><b>Testing & QA</b></td>
 <td>
-<img src="https://img.shields.io/badge/REST_APIs-333?style=flat-square&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/DNS_&_Domains-333?style=flat-square&logo=cloudflare&logoColor=F38020">
-<img src="https://img.shields.io/badge/Full--Stack-333?style=flat-square&logo=nodedotjs&logoColor=339933">
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub_Actions_CI-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 </td>
 </tr>
 </table>
@@ -74,6 +75,13 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 
 ## Featured Projects
 
+### CSUSM Campus Monitor &nbsp; [![Tests](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml)
+> Real-time occupancy tracker for campus locations using computer vision. Captures live HLS camera streams, runs YOLOv8 person detection with custom false-positive filtering, and serves a dashboard with live counts, heatmaps, and best-times recommendations. Dual detection backend (local YOLO + Frigate NVR via MQTT). 31 tests, full CI pipeline.
+
+`Python` `FastAPI` `YOLOv8` `OpenCV` `SQLite` `MQTT` `Docker` `hls.js` | [View Repo](https://github.com/ethanstoner/csusm-monitor)
+
+---
+
 ### UGC 3D Model Generation Platform
 > Full-stack web platform generating 3D models via local AI inference on personal GPU. Configured ComfyUI pipelines, managed system runtime, and resolved GPU driver conflicts for production uptime.
 
@@ -81,10 +89,10 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 
 ---
 
-### GSI Business Website
-> Production business website self-hosted on dedicated hardware. Managed DNS, domain setup, responsive design, and ongoing system maintenance independently.
+### GitScope &nbsp; — &nbsp; GitHub Profile Analyzer
+> Visual dashboards and comparison tools for analyzing GitHub profiles. TypeScript full-stack app with interactive charts and user comparison features.
 
-`JavaScript` `HTML/CSS` `Self-Hosted` `DNS` | [gsi.fluximetry.com](https://gsi.fluximetry.com)
+`TypeScript` `React` `Charts` | [View Repo](https://github.com/ethanstoner/gitscope)
 
 ---
 
@@ -92,20 +100,6 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 > End-to-end testing ecosystem with 90%+ coverage. Browser testing via Playwright, static analysis, full Dockerized environment, and automated HTML/JSON reporting.
 
 `Python` `TypeScript` `Playwright` `Docker` | [View Repo](https://github.com/ethanstoner/qa-instructions)
-
----
-
-### AI-Generated 3D Digital Assets
-> Generate and sell custom 3D assets using ComfyUI pipelines on local GPU. End-to-end workflow from model configuration and inference tuning to asset packaging and delivery.
-
-`Python` `ComfyUI` `Local GPU`
-
----
-
-### Freelance Web Development
-> Delivered production websites for small business clients. Integrated REST APIs, managed client requirements, and deployed through GitHub Pages and managed hosting.
-
-`JavaScript` `HTML/CSS` `GitHub Pages` `REST APIs`
 
 ---
 
@@ -118,9 +112,8 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 |---------|-------------|-------|------|
 | **DelayEdge** | Automated arbitrage trading with real-time scanning & risk management | Python | [Repo](https://github.com/ethanstoner/delayedge) |
 | **Vulture** | Minecraft mod decompiler with security analysis & Docker isolation | Python, Java, Docker | [Repo](https://github.com/ethanstoner/vulture) |
-| **Exploding Ball Engine** | Physics simulation game engine with collision detection | JavaScript | [Repo](https://github.com/ethanstoner/exploding-ball-engine) |
-| **HumanLike Typer** | Realistic typing emulator, 90-130 WPM, macOS & Windows | Lua | [Repo](https://github.com/ethanstoner/humanlike-typer) |
-| **Portfolio** | Responsive site with animations, Playwright testing & CI/CD | HTML/CSS/JS | [Live](https://ethanstoner.github.io) |
+| **HumanLike Typer** | Realistic typing emulator, QWERTY-based typos, natural rhythm | C# | [Repo](https://github.com/ethanstoner/humanlike-typer) |
+| **Portfolio** | Responsive site with animations & Playwright testing | HTML/CSS/JS | [Live](https://ethanstoner.github.io) |
 
 </details>
 
@@ -161,7 +154,7 @@ I'm a cloud and automation-focused engineer with hands-on experience self-hostin
 
 <div align="center">
 
-**Cloud Engineering** &nbsp;&bull;&nbsp; **DevOps** &nbsp;&bull;&nbsp; **Automation** &nbsp;&bull;&nbsp; **AI Infrastructure** &nbsp;&bull;&nbsp; **Platform Engineering**
+**Cloud Engineering** &nbsp;&bull;&nbsp; **Computer Vision** &nbsp;&bull;&nbsp; **DevOps** &nbsp;&bull;&nbsp; **Automation** &nbsp;&bull;&nbsp; **AI Infrastructure**
 
 [![Portfolio](https://img.shields.io/badge/ethanstoner.github.io-000?style=for-the-badge&logo=github&logoColor=white)](https://ethanstoner.github.io)
 
