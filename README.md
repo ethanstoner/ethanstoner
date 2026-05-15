@@ -154,11 +154,14 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 ## Work Experience
 
-**Cheryl's Caramels** &nbsp;-&nbsp; Team Member &nbsp;|&nbsp; Oceanside, CA
-> Customer-facing role at markets and events. Processed transactions, maintained inventory, and communicated professionally in fast-paced, high-traffic environments.
+**Collaborator** &nbsp;&middot;&nbsp; Riffyx Labs Mentorship &nbsp;|&nbsp; 2025 – 2026 &nbsp;&middot;&nbsp; 1 yr
+> Built hands-on experience with AWS fundamentals, debugging, and real-world technical issues across mentored projects. Used Git-based workflows to make code updates, work across branches, and submit pull requests for review. Worked alongside Cisco professionals on implementation tasks, strengthening troubleshooting, teamwork, and release discipline.
 
-**TrashCan Powerwashing** &nbsp;-&nbsp; Co-Founder
-> Co-founded a residential cleaning business. Handled scheduling, customer outreach, marketing, and day-to-day service operations.
+**Co-Founder** &nbsp;&middot;&nbsp; TrashCan Powerwashing &nbsp;|&nbsp; Aug 2025 – Oct 2025 &nbsp;&middot;&nbsp; 3 mos
+> Co-founded a residential trash-can power-washing business, working directly with customers from scheduling through service completion. Managed scheduling, customer communication, and cash handling while tracking income and expenses. Delivered services reliably, building hands-on experience with responsibility, time management, and client-facing work.
+
+**Member** &nbsp;&middot;&nbsp; Cheryl's Caramels &nbsp;|&nbsp; 2022 – 2025 &nbsp;&middot;&nbsp; 3 yrs &nbsp;|&nbsp; Oceanside, CA
+> Represented the company at markets and events, engaging customers and resolving product questions on the spot. Tested Stripe payment flows for the Cheryl's Caramels e-commerce site before release to verify checkout and payment reliability. Processed cash and digital transactions accurately while maintaining inventory and display readiness. Took ownership of assigned responsibilities, consistently meeting expectations with minimal oversight, and communicated professionally in fast-paced, high-traffic environments.
 
 <br>
 
@@ -169,7 +172,6 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 | **Great Oak High School** | Expected Graduation: June 2026 |
 | **AWS Cloud Practitioner (CLF-C02)** | In Progress |
 | **Coursework** | AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
-| **Cisco Mentorship Program** | Building monetizable projects & subscription-based businesses |
 
 <br>
 
