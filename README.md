@@ -120,7 +120,7 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 `Python` `FastAPI` `YOLOv8` `OpenCV` `SQLite` `MQTT` `Docker` | [View Repo](https://github.com/ethanstoner/csusm-monitor)
 
-### Senior TV &nbsp; [![Live](https://img.shields.io/badge/Live-seniortv.riffyx.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://seniortv.riffyx.com)
+### Senior TV
 > Open-source kiosk entertainment and care system for seniors with dementia/Alzheimer's — one mini PC, one TV, one `install.sh`. 6-button remote, self-healing services, HDMI-CEC control, fully remote-managed for caregivers. Built for two 95-year-olds who watch TV 8+ hours a day.
 
 `Python` `Flask` `Linux` `Jellyfin` `HDMI-CEC` | [View Repo](https://github.com/sandbreak80/senior-tv)
@@ -129,6 +129,15 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 > Fully automated, zero-human-interaction YouTube content pipeline. Records animated race videos via headless Playwright, encodes + mixes audio with FFmpeg, uploads on a rate-ramped cron schedule via the YouTube API. 76 race types, parallel batch recording.
 
 `Python` `Playwright` `FFmpeg` `YouTube API` `Automation` | [View Repo](https://github.com/ethanstoner/auto-youtube-pipeline)
+
+<br>
+
+## Client / Freelance Work
+
+### GSI Sand & Gravel &nbsp; [![Live](https://img.shields.io/badge/Live-gsi.fluximetry.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://gsi.fluximetry.com)
+> Designed, built, and deployed a production marketing website for **GSI Sand & Gravel**, a Southern California sand & gravel supplier serving the region for 30+ years. Responsive Next.js site presenting the company's services, coverage area, and contact funnel — shipped and live for a real business.
+
+`Next.js` `React` `Responsive` `Deployed`
 
 <br>
 
