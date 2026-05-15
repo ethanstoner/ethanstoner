@@ -39,6 +39,7 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 <td>
 <img src="https://img.shields.io/badge/YOLOv8-111?style=flat-square&logo=yolo&logoColor=00FFFF">
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
+<img src="https://img.shields.io/badge/Whisper-111?style=flat-square&logo=openai&logoColor=white">
 <img src="https://img.shields.io/badge/ComfyUI-333?style=flat-square&logoColor=white">
 <img src="https://img.shields.io/badge/GPU_Inference-333?style=flat-square&logo=nvidia&logoColor=76B900">
 </td>
@@ -49,16 +50,17 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white">
 </td>
 </tr>
 <tr>
 <td><b>Backend & Data</b></td>
 <td>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/WebSockets-333?style=flat-square&logo=socketdotio&logoColor=white">
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
 <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipsemosquitto&logoColor=white">
-<img src="https://img.shields.io/badge/REST_APIs-333?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white">
 </td>
 </tr>
 <tr>
@@ -76,30 +78,37 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 ## Featured Projects
 
 ### CSUSM Campus Monitor &nbsp; [![Tests](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml)
-> Real-time occupancy tracker for campus locations using computer vision. Captures live HLS camera streams, runs YOLOv8 person detection with custom false-positive filtering, and serves a dashboard with live counts, heatmaps, and best-times recommendations. Dual detection backend (local YOLO + Frigate NVR via MQTT). 31 tests, full CI pipeline.
+> Real-time occupancy tracker for campus locations using computer vision. Captures live HLS camera streams, runs YOLOv8 person detection with custom false-positive filtering, and serves a dashboard with live counts, weekly heatmaps, and best-times recommendations. Dual detection backend (local YOLO + Frigate NVR via MQTT), SQLite time-series storage, full CI pipeline.
 
-`Python` `FastAPI` `YOLOv8` `OpenCV` `SQLite` `MQTT` `Docker` `hls.js` | [View Repo](https://github.com/ethanstoner/csusm-monitor)
-
----
-
-### UGC 3D Model Generation Platform
-> Full-stack web platform generating 3D models via local AI inference on personal GPU. Configured ComfyUI pipelines, managed system runtime, and resolved GPU driver conflicts for production uptime.
-
-`Python` `ComfyUI` `Docker` `Self-Hosted` | [ugc.fluximetry.com](https://ugc.fluximetry.com)
+`Python` `FastAPI` `YOLOv8` `OpenCV` `SQLite` `MQTT` `Docker` | [View Repo](https://github.com/ethanstoner/csusm-monitor)
 
 ---
 
-### GitScope &nbsp; — &nbsp; GitHub Profile Analyzer
-> Visual dashboards and comparison tools for analyzing GitHub profiles. TypeScript full-stack app with interactive charts and user comparison features.
+### 3D Generator
+> Full-stack web app that turns a single image into a textured `.glb` 3D model in ~80 seconds via a local ComfyUI + Hunyuan3D 2.1 GPU pipeline. Persistent WebSocket to ComfyUI maps per-node progress back to each user, an async job queue serializes GPU work with live queue position + ETA, and every result is stored with an in-browser 3D viewer.
 
-`TypeScript` `React` `Charts` | [View Repo](https://github.com/ethanstoner/gitscope)
+`Python` `FastAPI` `WebSockets` `ComfyUI` `GPU Inference` `Self-Hosted` | [View Repo](https://github.com/ethanstoner/3d-generator)
 
 ---
 
-### QA Automation Framework
-> End-to-end testing ecosystem with 90%+ coverage. Browser testing via Playwright, static analysis, full Dockerized environment, and automated HTML/JSON reporting.
+### Senior TV
+> Open-source kiosk entertainment and care system for seniors with dementia/Alzheimer's — one mini PC, one TV, one `install.sh`. 6-button remote, self-healing services, HDMI-CEC control, and fully remote-managed for caregivers. Built for two 95-year-olds who watch TV 8+ hours a day.
 
-`Python` `TypeScript` `Playwright` `Docker` | [View Repo](https://github.com/ethanstoner/qa-instructions)
+`Python` `Flask` `Linux` `Jellyfin` `HDMI-CEC` `Kiosk` | [View Repo](https://github.com/ethanstoner/senior-tv)
+
+---
+
+### Lyric Generator &nbsp; [![CI](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml)
+> Paste a Spotify link, get a brat-style lyric video. FastAPI pipeline: Spotify metadata → local/yt-dlp audio → Whisper word-level timing (LRCLIB fallback) → Pillow frame rendering → ffmpeg mux. Async job queue, graceful failure handling on every external call, CI-tested.
+
+`Python` `FastAPI` `Whisper` `Pillow` `ffmpeg` `yt-dlp` | [View Repo](https://github.com/ethanstoner/lyric-generator)
+
+---
+
+### Auto YouTube Pipeline
+> Fully automated, zero-human-interaction YouTube content pipeline. Records animated race videos via headless Playwright, encodes + mixes audio with FFmpeg, and uploads on a rate-ramped cron schedule through the YouTube API. 76 race types, parallel batch recording.
+
+`Python` `Playwright` `FFmpeg` `YouTube API` `Automation` | [View Repo](https://github.com/ethanstoner/auto-youtube-pipeline)
 
 ---
 
@@ -110,10 +119,15 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 | Project | What it does | Stack | Link |
 |---------|-------------|-------|------|
-| **DelayEdge** | Automated arbitrage trading with real-time scanning & risk management | Python | [Repo](https://github.com/ethanstoner/delayedge) |
-| **Vulture** | Minecraft mod decompiler with security analysis & Docker isolation | Python, Java, Docker | [Repo](https://github.com/ethanstoner/vulture) |
-| **HumanLike Typer** | Realistic typing emulator, QWERTY-based typos, natural rhythm | C# | [Repo](https://github.com/ethanstoner/humanlike-typer) |
-| **Portfolio** | Responsive site with animations & Playwright testing | HTML/CSS/JS | [Live](https://ethanstoner.github.io) |
+| **yt2tiktok** | Desktop app: YouTube → vertical TikTok clips with word-by-word burned captions, GPU/NVENC encoding, hybrid Whisper transcription | Python, CustomTkinter, ffmpeg | [Repo](https://github.com/ethanstoner/yt2tiktok) |
+| **Hunyuan3D-2.1 Install Guide** ⭐9 | Comprehensive step-by-step guide for installing Hunyuan3D-2.1 + ComfyUI on Windows | Docs | [Repo](https://github.com/ethanstoner/Hunyuan3D-2.1-Complete-Install-Guide) |
+| **QA Automation Framework** | Reusable, Dockerized QA pipeline: unit tests, static analysis, security scanning, Playwright E2E, HTML/JSON reports | Python, Playwright, Docker | [Repo](https://github.com/ethanstoner/qa-instructions) |
+| **Vulture** | Minecraft mod decompiler/deobfuscator with suspicious-pattern security detection, Docker-isolated execution | Python, Java, Docker | [Repo](https://github.com/ethanstoner/vulture) |
+| **DelayEdge** | Automated trading bot for the HowTheMarketWorks simulator; real-time scanning, fixed-target exits, market-hours guards | Python | [Repo](https://github.com/ethanstoner/delayedge) |
+| **HumanType** | Cross-platform realistic typing emulator — QWERTY-based typos, natural rhythm, packaged Windows app with update checks | C# | [Repo](https://github.com/ethanstoner/humanlike-typer) |
+| **Quiz Sorter for TAs** | Wayground quiz organizer with attendance matching, curve caps, multi-quiz merge, sorted CSV/PDF output | Python | [Repo](https://github.com/ethanstoner/Quiz-Sorter-Program) |
+| **Exploding Ball Engine** | Web physics sim with collision detection and particle effects | JavaScript, Matter.js | [Repo](https://github.com/ethanstoner/exploding-ball-engine) |
+| **Portfolio** | Responsive personal site with animations & Playwright testing | HTML/CSS/JS | [Live](https://ethanstoner.github.io) |
 
 </details>
 
