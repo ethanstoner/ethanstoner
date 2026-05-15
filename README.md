@@ -75,42 +75,62 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 <br>
 
-## Featured Projects
+# Flagship Projects
+
+## Qorlyt — Image-to-3D Generator &nbsp; [![Live](https://img.shields.io/badge/Live-qorlyt.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://qorlyt.com) [![Repo](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/3d-generator)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ethanstoner/3d-generator/main/docs/screenshots/main-app.png" width="640" alt="Qorlyt 3D generator app">
+</p>
+
+> **Live, self-hosted product** at **[qorlyt.com](https://qorlyt.com)**. Upload a single image, get a textured `.glb` 3D model back in ~80 seconds via a local **ComfyUI + Hunyuan3D 2.1** GPU pipeline. A persistent **WebSocket** to ComfyUI maps per-node progress back to each user in real time, an **async job queue** serializes GPU work with live queue position + ETA, and every generation is stored with an in-browser 3D viewer. Shared-password auth, GPU health pings, persistent history.
+
+`Python` · `FastAPI` · `WebSockets` · `ComfyUI` · `Hunyuan3D 2.1` · `GPU Inference` · `Self-Hosted`
+
+---
+
+## Lyric Generator &nbsp; [![CI](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml) [![Repo](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/lyric-generator)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ethanstoner/lyric-generator/main/assets/demo.gif" width="230" alt="Lyric video demo: Radiohead - No Surprises">
+</p>
+
+> Paste a Spotify link, get a brat-style lyric video. FastAPI pipeline: Spotify metadata → local / yt-dlp audio → **Whisper** word-level timing (LRCLIB fallback) → **Pillow** frame rendering → **ffmpeg** mux. Async job queue, graceful failure handling on every external call, packaged with `pyproject.toml`, MIT-licensed, and **CI-tested on every push**.
+
+`Python` · `FastAPI` · `Whisper` · `Pillow` · `ffmpeg` · `yt-dlp` · `GitHub Actions`
+
+---
+
+## yt2tiktok &nbsp; [![Repo](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/yt2tiktok)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ethanstoner/yt2tiktok/main/assets/captions-demo.gif" width="260" alt="yt2tiktok animated captions demo">
+</p>
+
+> Desktop app that turns any YouTube video into scheduled, captioned TikTok clips. Splits into 60–70s vertical segments (silence-based or LLM cliffhanger cuts), burns in **word-by-word karaoke captions** (6 style presets), and uploads on a schedule. **NVENC GPU encoding** with CPU fallback, parallel encoding (2–4× faster), and hybrid transcription — YouTube captions with automatic local Whisper fill-in for censored words.
+
+`Python` · `CustomTkinter` · `ffmpeg / NVENC` · `faster-whisper` · `yt-dlp`
+
+<br>
+
+## More Featured Work
 
 ### CSUSM Campus Monitor &nbsp; [![Tests](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/csusm-monitor/actions/workflows/ci.yml)
-> Real-time occupancy tracker for campus locations using computer vision. Captures live HLS camera streams, runs YOLOv8 person detection with custom false-positive filtering, and serves a dashboard with live counts, weekly heatmaps, and best-times recommendations. Dual detection backend (local YOLO + Frigate NVR via MQTT), SQLite time-series storage, full CI pipeline.
+> Real-time occupancy tracker for campus locations using computer vision — live HLS stream capture, YOLOv8 person detection with custom false-positive filtering, dashboard with live counts, weekly heatmaps, and best-times recommendations. Dual backend (local YOLO + Frigate NVR via MQTT), full CI pipeline.
 
 `Python` `FastAPI` `YOLOv8` `OpenCV` `SQLite` `MQTT` `Docker` | [View Repo](https://github.com/ethanstoner/csusm-monitor)
 
----
+### Senior TV &nbsp; [![Live](https://img.shields.io/badge/Live-seniortv.riffyx.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://seniortv.riffyx.com)
+> Open-source kiosk entertainment and care system for seniors with dementia/Alzheimer's — one mini PC, one TV, one `install.sh`. 6-button remote, self-healing services, HDMI-CEC control, fully remote-managed for caregivers. Built for two 95-year-olds who watch TV 8+ hours a day.
 
-### 3D Generator
-> Full-stack web app that turns a single image into a textured `.glb` 3D model in ~80 seconds via a local ComfyUI + Hunyuan3D 2.1 GPU pipeline. Persistent WebSocket to ComfyUI maps per-node progress back to each user, an async job queue serializes GPU work with live queue position + ETA, and every result is stored with an in-browser 3D viewer.
-
-`Python` `FastAPI` `WebSockets` `ComfyUI` `GPU Inference` `Self-Hosted` | [View Repo](https://github.com/ethanstoner/3d-generator)
-
----
-
-### Senior TV
-> Open-source kiosk entertainment and care system for seniors with dementia/Alzheimer's — one mini PC, one TV, one `install.sh`. 6-button remote, self-healing services, HDMI-CEC control, and fully remote-managed for caregivers. Built for two 95-year-olds who watch TV 8+ hours a day.
-
-`Python` `Flask` `Linux` `Jellyfin` `HDMI-CEC` `Kiosk` | [View Repo](https://github.com/ethanstoner/senior-tv)
-
----
-
-### Lyric Generator &nbsp; [![CI](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/ethanstoner/lyric-generator/actions/workflows/ci.yml)
-> Paste a Spotify link, get a brat-style lyric video. FastAPI pipeline: Spotify metadata → local/yt-dlp audio → Whisper word-level timing (LRCLIB fallback) → Pillow frame rendering → ffmpeg mux. Async job queue, graceful failure handling on every external call, CI-tested.
-
-`Python` `FastAPI` `Whisper` `Pillow` `ffmpeg` `yt-dlp` | [View Repo](https://github.com/ethanstoner/lyric-generator)
-
----
+`Python` `Flask` `Linux` `Jellyfin` `HDMI-CEC` | [View Repo](https://github.com/sandbreak80/senior-tv)
 
 ### Auto YouTube Pipeline
-> Fully automated, zero-human-interaction YouTube content pipeline. Records animated race videos via headless Playwright, encodes + mixes audio with FFmpeg, and uploads on a rate-ramped cron schedule through the YouTube API. 76 race types, parallel batch recording.
+> Fully automated, zero-human-interaction YouTube content pipeline. Records animated race videos via headless Playwright, encodes + mixes audio with FFmpeg, uploads on a rate-ramped cron schedule via the YouTube API. 76 race types, parallel batch recording.
 
 `Python` `Playwright` `FFmpeg` `YouTube API` `Automation` | [View Repo](https://github.com/ethanstoner/auto-youtube-pipeline)
 
----
+<br>
 
 <details>
 <summary><b>More Projects</b></summary>
@@ -119,7 +139,6 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 | Project | What it does | Stack | Link |
 |---------|-------------|-------|------|
-| **yt2tiktok** | Desktop app: YouTube → vertical TikTok clips with word-by-word burned captions, GPU/NVENC encoding, hybrid Whisper transcription | Python, CustomTkinter, ffmpeg | [Repo](https://github.com/ethanstoner/yt2tiktok) |
 | **Hunyuan3D-2.1 Install Guide** ⭐9 | Comprehensive step-by-step guide for installing Hunyuan3D-2.1 + ComfyUI on Windows | Docs | [Repo](https://github.com/ethanstoner/Hunyuan3D-2.1-Complete-Install-Guide) |
 | **QA Automation Framework** | Reusable, Dockerized QA pipeline: unit tests, static analysis, security scanning, Playwright E2E, HTML/JSON reports | Python, Playwright, Docker | [Repo](https://github.com/ethanstoner/qa-instructions) |
 | **Vulture** | Minecraft mod decompiler/deobfuscator with suspicious-pattern security detection, Docker-isolated execution | Python, Java, Docker | [Repo](https://github.com/ethanstoner/vulture) |
