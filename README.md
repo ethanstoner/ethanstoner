@@ -17,7 +17,7 @@ From GPU inference to deployment infrastructure — I ship real systems that ser
 
 ## About Me
 
-I'm a cloud and automation-focused engineer with hands-on experience building computer vision systems, self-hosting production web applications, running AI inference workloads on local GPU hardware, and managing deployment infrastructure end-to-end. Recent **Great Oak High School** graduate (June 2026), now available full-time and pursuing the **AWS Certified Cloud Practitioner (CLF-C02)**.
+I'm a cloud and automation-focused engineer with hands-on experience building computer vision systems, self-hosting production web applications, running AI inference workloads on local GPU hardware, and managing deployment infrastructure end-to-end. Recent **Great Oak High School** graduate (June 2026), heading to **Cal State San Marcos** for a B.S. in Computer Science (Fall 2026), and pursuing the **AWS Certified Cloud Practitioner (CLF-C02)**. Open to internships and part-time roles.
 
 <br>
 
@@ -177,9 +177,10 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 | | |
 |---|---|
+| **Cal State San Marcos** — B.S. Computer Science | Starting Fall 2026 |
 | **Great Oak High School** | Graduated June 2026 |
 | **AWS Cloud Practitioner (CLF-C02)** | In Progress |
-| **Coursework** | AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
+| **HS Coursework** | AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
 
 <br>
 
