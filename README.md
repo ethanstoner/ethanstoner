@@ -196,7 +196,7 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 |---|---|
 | **Cal State San Marcos** — B.S. Computer Science | Starting Fall 2026 |
 | **Great Oak High School** | Graduated June 2026 |
-| **Anthropic** — [13 Certificates of Completion](https://ethanstoner.github.io/certs) | Anthropic API, Amazon Bedrock, Code in Action, Code 101, Model Context Protocol (MCP) + Advanced, AI Fluency for Builders, AI Fluency, Platform 101, Claude 101, AI Fluency for Students, AI Fluency for Educators & Cowork |
+| **Anthropic** — [16 Certificates of Completion](https://ethanstoner.github.io/certs) | Anthropic API, Amazon Bedrock, Code in Action, Code 101, Model Context Protocol (MCP) + Advanced, Agent Skills, Subagents, AI Fluency (Builders / Framework / Students / Educators / Capabilities & Limitations), Platform 101, Claude 101 & Cowork |
 | **AWS Cloud Practitioner (CLF-C02)** | In Progress |
 | **HS Coursework** | AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
 
