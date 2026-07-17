@@ -76,6 +76,18 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 # Flagship Projects
 
+## GenAI Gateway on AWS — Production Deployment &nbsp; [![AWS](https://img.shields.io/badge/AWS-Production%20Deployment-FF9900?style=flat-square)](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws) [![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws)
+
+> **Deployed & operated** AWS's multi-provider Generative AI gateway from an empty repo to a live, **TLS-secured production endpoint** — provisioning **~120 AWS resources with Terraform** and owning the full deployment lifecycle. An OpenAI-compatible API layer (**LiteLLM**) fronts **Amazon Bedrock**, exposing Amazon Nova and Anthropic Claude through one endpoint with usage-based routing and automatic fallbacks. Provisioned VPC, **ECS Fargate**, ALB, **PostgreSQL on RDS**, **Redis on ElastiCache**, WAF, Secrets Manager, and Bedrock VPC endpoints via Terraform with a remote **S3 state backend**; custom domain on **Route 53** + a DNS-validated **ACM** certificate; horizontal autoscaling, least-privilege IAM, Redis caching, and per-key cost/token observability. Layered **Bedrock Guardrails** + a **Microsoft Presidio** PII-masking sidecar — then traced a masking defect to a dependency version and fixed it via a controlled upgrade and regression testing. Built one-command spin-up / spin-down cost controls and rebuilt the entire stack from Terraform state to verify it.
+>
+> **Scope & credit:** a real production cloud/DevOps engagement mentored by **Cisco professionals at Riffyx Labs** — hands-on *deployment and operation* of AWS's official [Guidance for Multi-Provider Generative AI Gateway on AWS](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws) reference architecture, not original authorship of the codebase.
+
+`Client → Route 53 + ACM (TLS) → ALB + WAF → ECS Fargate (LiteLLM + Presidio) → Amazon Bedrock (Nova / Claude)` · `RDS` · `ElastiCache` · `Secrets Manager`
+
+`AWS` · `Terraform` · `ECS Fargate` · `Amazon Bedrock` · `RDS` · `ElastiCache` · `Route 53` · `ACM` · `Docker` · `LiteLLM`
+
+---
+
 ## Pincer — Real-Time Computer-Vision Agent &nbsp; [![Tests](https://img.shields.io/badge/tests-127%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/pincer) [![Repo](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/pincer)
 
 <p align="center">
@@ -180,7 +192,7 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 ## Work Experience
 
 **Collaborator** &nbsp;&middot;&nbsp; Riffyx Labs Mentorship &nbsp;|&nbsp; 2025 – 2026 &nbsp;&middot;&nbsp; 1 yr
-> Built hands-on experience with AWS fundamentals, debugging, and real-world technical issues across mentored projects. Used Git-based workflows to make code updates, work across branches, and submit pull requests for review. Worked alongside Cisco professionals on implementation tasks, strengthening troubleshooting, teamwork, and release discipline.
+> Worked alongside **Cisco professionals** to deploy and operate a production **Generative AI gateway on AWS** — ~120 resources provisioned with **Terraform** (ECS Fargate, RDS, ALB, WAF, Bedrock) with Guardrails and PII masking. Used Git-based workflows (branches, commits, pull requests) and hands-on production debugging — strengthening troubleshooting, teamwork, and release discipline. *(See the GenAI Gateway flagship above.)*
 
 **Co-Founder** &nbsp;&middot;&nbsp; TrashCan Powerwashing &nbsp;|&nbsp; Aug 2025 – Oct 2025 &nbsp;&middot;&nbsp; 3 mos
 > Co-founded a residential trash-can power-washing business, working directly with customers from scheduling through service completion. Managed scheduling, customer communication, and cash handling while tracking income and expenses. Delivered services reliably, building hands-on experience with responsibility, time management, and client-facing work.
