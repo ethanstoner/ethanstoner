@@ -98,15 +98,13 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 ---
 
-## Pincer — Real-Time Computer-Vision Agent &nbsp; [![Tests](https://img.shields.io/badge/tests-127%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/pincer) [![Repo](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/pincer)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ethanstoner/pincer/main/assets/architecture.png" width="640" alt="Pincer perception → decision → actuation architecture">
-</p>
+## Pincer — Real-Time Computer-Vision Agent &nbsp; ![Tests](https://img.shields.io/badge/tests-127%20passing-brightgreen?style=flat-square) ![Private](https://img.shields.io/badge/repo-private-6E7681?style=flat-square&logo=github&logoColor=white)
 
 > A real-time **computer-vision agent** that drives physical **Android** phones autonomously to play a mobile game. It streams live video off each device over USB, locates targets with a fine-tuned **YOLO11** detector, and executes the on-screen gestures to act on them — closing the perception → decision → actuation loop end to end. A **self-supervised data flywheel** has the running agent label its own training data (**5,400+ frames**), corrected through a human-in-the-loop review UI and fed back through a train → validation-gate → ship pipeline with **ONNX** export. Latency engineered to the floor — per-frame capture **~600ms → ~1.3ms**, each tap **~200ms → ~20ms** — with multi-device orchestration, self-healing recovery, and a live MJPEG dashboard. Structural safety invariants enforced in code and tests; **127 automated tests**.
 
 `Python` · `PyTorch` · `YOLO11` · `OpenCV` · `ONNX` · `Computer Vision` · `adb`
+
+<sub>Source is private — happy to walk through the architecture and the training pipeline in an interview.</sub>
 
 ---
 
