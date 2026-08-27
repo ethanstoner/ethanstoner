@@ -136,6 +136,26 @@ I'm a cloud and automation-focused engineer with hands-on experience building co
 
 <br>
 
+# Open-Source Contributions
+
+Merged fixes in other people's production codebases — found by reading unfamiliar code, diagnosed by measurement, and defended in review.
+
+## rakazo &nbsp; [![PR #322](https://img.shields.io/badge/PR%20%23322-merged-8957E5?style=flat-square&logo=github&logoColor=white)](https://github.com/elie222/rakazo/pull/322) [![Stars](https://img.shields.io/badge/upstream-1.4k%20stars-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/elie222/rakazo)
+
+> Three services silently failed to start on Windows under `turbo` — no output, no port, no error. The reporter could reproduce it but wrote *"I cannot explain the root cause."* I narrowed it by elimination: a trivial script under turbo worked while the real app did not; redirecting the child's stdout to a file still hung, ruling out pipe blocking; a 160-second wait proved a hang rather than slowness. The cause was `tsx watch`'s press-Return-to-restart **stdin listener** — under turbo on Windows that inherited handle never delivers and never closes, so the process never reaches its entrypoint. Fixed with a small cross-platform runner that detaches stdin while preserving output and signal semantics.
+
+`Node.js` · `TypeScript` · `turbo` · `Windows` · `Process I/O`
+
+---
+
+## TrueForge &nbsp; [![PR #464](https://img.shields.io/badge/PR%20%23464-merged-8957E5?style=flat-square&logo=github&logoColor=white)](https://github.com/truefoundry/trueforge/pull/464) [![Stars](https://img.shields.io/badge/upstream-4.7k%20stars-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/truefoundry/trueforge)
+
+> A sandbox status refresh called a third-party API with **no timeout** from three request-handling paths, so a stalled provider could hold API requests open until the HTTP client's multi-minute default. Added a timeout budget and an abort on the request itself. When a reviewer questioned whether the abort was necessary, I measured it rather than argued it: `Promise.race` frees the caller but leaves the socket open — demonstrated with socket-close events. Merged after a changes-requested review round.
+
+`TypeScript` · `Node.js` · `Timeouts` · `AbortSignal` · `Code Review`
+
+<br>
+
 ## More Featured Work
 
 ### kvstore — Redis-Compatible Database &nbsp; [![Tests](https://img.shields.io/badge/tests-203%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/kvstore)
