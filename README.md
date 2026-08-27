@@ -209,7 +209,7 @@ Merged fixes in other people's production codebases — found by reading unfamil
 | **Anthropic** — [21 Certificates of Completion](https://ethanstoner.github.io/certs) | Anthropic API, Amazon Bedrock, Google Vertex AI, Code in Action, Code 101, Model Context Protocol (MCP) + Advanced, Agent Skills, Subagents, AI Fluency (Builders / Framework / Students / Educators / K-12 / Nonprofits / Small Businesses / Teaching / Capabilities & Limitations), Platform 101, Claude 101 & Cowork |
 | **OpenAI** — [Agents and Workflows](https://academy.openai.com/public/certificate/2b0iq3mrzx), [AI Foundations](https://academy.openai.com/public/certificate/v0uhjoyeu3) & [Applied AI Foundations](https://academy.openai.com/public/certificate/zl8falk765) | OpenAI Academy — AI agents & workflows, plus AI foundations and applied practice |
 | **AWS Cloud Practitioner (CLF-C02)** | In Progress |
-| **HS Coursework** | AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
+| **HS Coursework** | AP Computer Science A, AP Computer Science Principles, AP Calculus AB, AP Statistics, AP English Lit |
 
 <br>
 
