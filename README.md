@@ -22,11 +22,11 @@ Computer Science student at **Cal State San Marcos**, working across cloud infra
 
 ## Selected Work
 
-### Landed — pricing for card shops &nbsp; [![Live](https://img.shields.io/badge/live-landedcards.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://landedcards.com) ![Tests](https://img.shields.io/badge/tests-359%20passing-brightgreen?style=flat-square)
+### Landed — pricing for card shops &nbsp; [![Live](https://img.shields.io/badge/live-landedcards.com-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://landedcards.com) ![Tests](https://img.shields.io/badge/tests-371%20passing-brightgreen?style=flat-square)
 
 Paste a TCGplayer link, get a sticker price for every condition — Near Mint through Damaged — as whole dollars. The figure is what the card actually costs a buyer online *including shipping*, so a customer walking out with it today is not paying more than they would waiting a week for the mail. Sole engineer across product, infrastructure and testing.
 
-The pricing engine is written **twice on purpose** — a Python reference and the TypeScript port that actually runs — with golden tests asserting the port reproduces the reference byte for byte from shared fixtures. **359 automated tests** across both.
+The pricing engine is written **twice on purpose** — a Python reference and the TypeScript port that actually runs — with golden tests asserting the port reproduces the reference byte for byte from shared fixtures. **371 automated tests** across both.
 
 Built and deployed, not yet in service: auth and billing are wired against Clerk and Stripe in test mode rather than running in production.
 
@@ -60,21 +60,37 @@ Written from scratch in **Java 21** rather than wrapped around an existing engin
 
 `Java 21` · `LSM-Tree` · `RESP` · `TLS` · `Concurrency`
 
+---
+
+### strata — zero-setup DICOM viewer &nbsp; [![Tests](https://img.shields.io/badge/tests-72%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/strata) [![Repo](https://img.shields.io/badge/code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/strata)
+
+Point one binary at a folder of CT or MRI files and get a viewer in the browser: scroll the slice stack, window the Hounsfield range, or raymarch the whole study in 3D on the GPU. No DICOMweb server to stand up, no import step, no multi-gigabyte desktop install.
+
+The interesting problem here is not rendering, it is the ways a viewer can be confidently and silently wrong. Slices stacked in the wrong order still render perfectly, with no crash and no warning, and simply show anatomy that does not exist. So the stacking order is derived from each file's own `ImagePositionPatient` projected onto the slice normal, never from `InstanceNumber`, which lies in real data — and a regression test shuffles the instance numbers to prove it holds.
+
+Indexing reads headers only and never pixel data, so a 1026-slice study indexes in **97.8 ms**. The volume renderer is hand-written **WebGL2** with a resolution pyramid, so a modest laptop loads 1 MB instead of 64 MB. A bundled script pulls a real study from the public NCI archive, so it runs end to end without an account. **72 tests**, MIT.
+
+`Rust` · `WebGL2` · `axum` · `SQLite` · `TypeScript`
+
 <br>
 
 ## Open Source
 
-**7 pull requests merged into repositories totalling 42,000+ stars.** Fixes in codebases I do not maintain — found by reading unfamiliar code, diagnosed by measurement, and defended in review.
+**11 pull requests merged into repositories totalling 82,000+ stars.** Fixes in codebases I do not maintain — found by reading unfamiliar code, diagnosed by measurement, and defended in review.
 
 | Repo | ★ | Merged | What it fixed |
 |---|---|---|---|
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pull/1252) | 32.1k | [#1252](https://github.com/HKUDS/Vibe-Trading/pull/1252) | `read_file` now resolves a skill-relative reference link, so a bundled path works for the agent *and* for a human reading it on GitHub. |
-| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/477) | 4.9k | [#477](https://github.com/truefoundry/trueforge/pull/477) | Split 401 from 403, so a valid key missing one permission stopped being reported as a bad key. |
-| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/464) | 4.9k | [#464](https://github.com/truefoundry/trueforge/pull/464) | Bounded third-party calls that could hold a request open for minutes. |
-| [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot/pull/268) | 3.5k | [#268](https://github.com/CopilotKit/OpenBot/pull/268) | Fixed a truthiness check that silently discarded every token on Responses-API models. |
-| [elie222/rakazo](https://github.com/elie222/rakazo/pull/322) | 1.6k | [#322](https://github.com/elie222/rakazo/pull/322) | Diagnosed a Windows-only startup hang: `tsx watch`'s stdin listener never resolves under turbo. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/33) | 616 | [#33](https://github.com/User0332/rewards-farmer/pull/33) | Waited on the panel's content rather than its container, fixing a flaky scrape. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/32) | 616 | [#32](https://github.com/User0332/rewards-farmer/pull/32) | Lowered the Python floor to widen platform support. |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pull/1252) | 32.2k | [#1252](https://github.com/HKUDS/Vibe-Trading/pull/1252) | `read_file` now resolves a skill-relative reference link, so a bundled path works for the agent *and* for a human reading it on GitHub. |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect/pull/22980) | 23.8k | [#22980](https://github.com/PrefectHQ/prefect/pull/22980) | Jitter was drawn around the base interval instead of the backed-off one, so every caller in the repo silently lost the retry backoff the loop documents. |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pull/83) | 15.0k | [#83](https://github.com/bilawalsidhu/gods-eye-view/pull/83) | Kept `node:fs` out of the browser build, where Vite only warns and the boundary rested entirely on one runtime guard being right. |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pull/81) | 15.0k | [#81](https://github.com/bilawalsidhu/gods-eye-view/pull/81) | Added `.gitattributes` so text files check out as LF, fixing 25 tests that failed on every Windows clone. |
+| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/477) | 5.0k | [#477](https://github.com/truefoundry/trueforge/pull/477) | Split 401 from 403, so a valid key missing one permission stopped being reported as a bad key. |
+| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/464) | 5.0k | [#464](https://github.com/truefoundry/trueforge/pull/464) | Bounded third-party calls that could hold a request open for minutes. |
+| [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot/pull/268) | 3.7k | [#268](https://github.com/CopilotKit/OpenBot/pull/268) | Fixed a truthiness check that silently discarded every token on Responses-API models. |
+| [elie222/rakazo](https://github.com/elie222/rakazo/pull/322) | 1.7k | [#322](https://github.com/elie222/rakazo/pull/322) | Diagnosed a Windows-only startup hang: `tsx watch`'s stdin listener never resolves under turbo. |
+| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/36) | 724 | [#36](https://github.com/User0332/rewards-farmer/pull/36) | Structured logging, a query source that needs no LLM, multi-account runs and a Docker image. |
+| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/33) | 724 | [#33](https://github.com/User0332/rewards-farmer/pull/33) | Waited on the panel's content rather than its container, fixing a flaky scrape. |
+| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/32) | 724 | [#32](https://github.com/User0332/rewards-farmer/pull/32) | Lowered the Python floor to widen platform support. |
 
 <sub>Two worth reading in full: <a href="https://github.com/elie222/rakazo/pull/322">rakazo #322</a>, where the reporter wrote "I cannot explain the root cause" and I narrowed it by elimination; and <a href="https://github.com/truefoundry/trueforge/pull/464">trueforge #464</a>, where a reviewer questioned whether an abort was needed and I measured it rather than argued it — <code>Promise.race</code> frees the caller but leaves the socket open.</sub>
 
