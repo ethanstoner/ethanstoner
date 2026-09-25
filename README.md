@@ -44,13 +44,11 @@ Took AWS's multi-provider GenAI gateway from an empty repository to a live, TLS-
 
 ---
 
-### Pincer — real-time computer-vision agent &nbsp; ![Tests](https://img.shields.io/badge/tests-127%20passing-brightgreen?style=flat-square) ![Private](https://img.shields.io/badge/repo-private-6E7681?style=flat-square&logo=github&logoColor=white)
+### Local LLM Lab — measuring and speeding up a 7B model on one GPU &nbsp; [![Tests](https://img.shields.io/badge/tests-173%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/local-llm-lab) [![Repo](https://img.shields.io/badge/code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/local-llm-lab)
 
-A closed loop against real hardware: capture an Android device's screen over ADB, locate the target with a fine-tuned **YOLO11** detector, decide, and actuate a gesture back to the phone. A self-supervised flywheel has the running agent label its own training data (**5,400+ frames**), corrected through a human review UI and fed back through a train → validation-gate → ship pipeline with ONNX export. Per-frame capture taken from **~600 ms to ~1.3 ms**, each tap from ~200 ms to ~20 ms, with multi-device orchestration and self-healing recovery. **127 automated tests.**
+A measurement framework run on **Qwen2.5-7B-Instruct** and an RTX 4090, asking where inference time goes, how close it runs to what the hardware allows, and whether refusal runs through one direction inside the network. A roofline built from measured ceilings (947 GB/s, 157.5 TFLOP/s) with no fitted parameters showed the old attention path copying the KV cache seven times per layer; the replacement reads each cached key and value once and decodes **1.57x faster at 16k context** and **1.65x at batch 32**, with no measurable fidelity loss against an FP32-attention reference. Removing one residual-stream direction takes refusal on harmful prompts from **95% to 0-2.5%**, adding it makes the model refuse 100% of harmless ones, and random directions do nothing. Paired ABBA benchmarks, held-out splits and random controls; every headline number comes from a recorded run stored with its hardware, versions and commit. **173 tests.**
 
-`Python` · `PyTorch` · `YOLO11` · `OpenCV` · `ONNX` · `adb`
-
-<sub>Source is private — happy to walk through the architecture and the training pipeline.</sub>
+`Python` · `PyTorch` · `Transformers` · `CUDA` · `Roofline` · `Interpretability`
 
 ---
 
@@ -82,36 +80,35 @@ Indexing reads headers only and never pixel data, so a 1026-slice study indexes 
 
 `Rust` · `WebGL2` · `axum` · `SQLite` · `TypeScript`
 
+---
+
+### Heart Disease Audit — a reproducibility audit of a popular ML dataset &nbsp; [![Tests](https://img.shields.io/badge/tests-77%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/heart-disease-audit) [![Repo](https://img.shields.io/badge/code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/heart-disease-audit)
+
+Traces the Kaggle Heart Failure Prediction CSV back to its four UCI hospital sources. Every value missing at the source was filled in, and in four columns the filled value matches the diagnosis perfectly: every filled `ST_Slope` is `Flat` for a patient with heart disease (111 of 111) and `Up` for one without (191 of 191). Undoing the fill drops the typical published pipeline from **86.4% to 79.3%** median accuracy over 1,000 paired splits, and a pre-registered survey of 30 public notebooks found **0 of 30** mention it. Trained on three hospitals and tested on the fourth, the honest AUC is about **0.83**. Every experiment's prediction was committed before it ran; 14 of 15 held up.
+
+`Python` · `pandas` · `scikit-learn` · `SciPy` · `pytest`
+
+
 <br>
 
 ## Open Source
 
-**22 pull requests merged into repositories totalling 234,000+ stars.** Fixes in codebases I do not maintain — found by reading unfamiliar code, diagnosed by measurement, and defended in review.
+**48 pull requests merged into 31 repositories totalling 475,000+ stars.** Fixes in codebases I do not maintain — found by reading unfamiliar code, diagnosed by measurement, and defended in review. The ten largest repositories:
 
 | Repo | ★ | Merged | What it fixed |
 |---|---|---|---|
-| [withastro/astro](https://github.com/withastro/astro/pull/17861) | 62.5k | [#17861](https://github.com/withastro/astro/pull/17861) | Fallback route generation swapped the locale as a substring, so it corrupted any path segment that merely started with the locale code. |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pull/1347) | 33.2k | [#1347](https://github.com/HKUDS/Vibe-Trading/pull/1347) | Three "newest first" queries had no tiebreaker, so records sharing a timestamp came back oldest first. Three tests were already failing on `main`. |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pull/1328) | 33.2k | [#1328](https://github.com/HKUDS/Vibe-Trading/pull/1328) | Dropped the skill-name prefix from reference links, so they resolve on GitHub and not only for the agent. |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pull/1252) | 33.2k | [#1252](https://github.com/HKUDS/Vibe-Trading/pull/1252) | `read_file` now resolves a skill-relative reference link, so a bundled path works for the agent *and* for a human reading it on GitHub. |
-| [fmtlib/fmt](https://github.com/fmtlib/fmt/pull/4919) | 25.7k | [#4919](https://github.com/fmtlib/fmt/pull/4919) | A test target built from `format.cc` directly never inherited the `/utf-8` the library sets, so the pedantic build did not compile under MSVC. CI never saw it because only the Linux and macOS jobs enable that flag. |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect/pull/22980) | 23.8k | [#22980](https://github.com/PrefectHQ/prefect/pull/22980) | Jitter was drawn around the base interval instead of the backed-off one, so every caller in the repo silently lost the retry backoff the loop documents. |
-| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pull/83) | 23.0k | [#83](https://github.com/bilawalsidhu/gods-eye-view/pull/83) | Kept `node:fs` out of the browser build, where Vite only warns and the boundary rested entirely on one runtime guard being right. |
-| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pull/81) | 23.0k | [#81](https://github.com/bilawalsidhu/gods-eye-view/pull/81) | Added `.gitattributes` so text files check out as LF, fixing 25 tests that failed on every Windows clone. |
-| [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller/pull/9521) | 13.1k | [#9521](https://github.com/pyinstaller/pyinstaller/pull/9521) | The icon suffix was compared against a lower-case allowlist without being lower-cased, so `MyApp.ICO` was either rejected outright or silently re-encoded through Pillow, replacing hand-made frames with resampled ones. |
-| [openlayers/openlayers](https://github.com/openlayers/openlayers/pull/17614) | 12.6k | [#17614](https://github.com/openlayers/openlayers/pull/17614) | `deflateCoordinate` took a `stride` but looped over the coordinate's length, leaving `Point` and `Circle` with a stride and layout that no longer described their own data. |
-| [kornia/kornia](https://github.com/kornia/kornia/pull/4305) | 11.4k | [#4305](https://github.com/kornia/kornia/pull/4305) | `float16` gradients came back NaN: the forward pass divides by a Hessian determinant near 1e-4, and the backward scales by its square, which is below `float16`'s smallest normal. |
-| [nodejs/node-gyp](https://github.com/nodejs/node-gyp/pull/3364) | 10.7k | [#3364](https://github.com/nodejs/node-gyp/pull/3364) | `--msvs_version` is documented in three places in the README, but the option is declared and read under the dash spelling, so nopt filed the value somewhere nothing looks at and the flag did nothing on the command line. The environment variable always worked, which is why it went unnoticed. |
-| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/477) | 5.4k | [#477](https://github.com/truefoundry/trueforge/pull/477) | Split 401 from 403, so a valid key missing one permission stopped being reported as a bad key. |
-| [truefoundry/trueforge](https://github.com/truefoundry/trueforge/pull/464) | 5.4k | [#464](https://github.com/truefoundry/trueforge/pull/464) | Bounded third-party calls that could hold a request open for minutes. |
-| [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot/pull/268) | 4.6k | [#268](https://github.com/CopilotKit/OpenBot/pull/268) | Fixed a truthiness check that silently discarded every token on Responses-API models. |
-| [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines/pull/22) | 3.4k | [#22](https://github.com/JetBrains/go-modern-guidelines/pull/22) | A `go.mod` with no `go` directive fell through to the local toolchain, so the CLI recommended language features the go command then refused to compile — it reads such a module as go1.16. |
-| [tobi/walgit](https://github.com/tobi/walgit/pull/18) | 2.5k | [#18](https://github.com/tobi/walgit/pull/18) | No S3 operation could return a retryable error, so the manifest CAS — the repo's only commit point — gave up on transient faults the GCS backend retried. |
-| [elie222/rakazo](https://github.com/elie222/rakazo/pull/322) | 2.2k | [#322](https://github.com/elie222/rakazo/pull/322) | Diagnosed a Windows-only startup hang: `tsx watch`'s stdin listener never resolves under turbo. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/81) | 848 | [#81](https://github.com/User0332/rewards-farmer/pull/81) | Cleanup after a failed task closed the Rewards tab it was meant to keep, because "the tab to keep" defaulted to whichever one had focus. Every later task then failed, and the rest of the run was silently skipped. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/36) | 848 | [#36](https://github.com/User0332/rewards-farmer/pull/36) | Structured logging, a query source that needs no LLM, multi-account runs and a Docker image. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/33) | 848 | [#33](https://github.com/User0332/rewards-farmer/pull/33) | Waited on the panel's content rather than its container, fixing a flaky scrape. |
-| [User0332/rewards-farmer](https://github.com/User0332/rewards-farmer/pull/32) | 848 | [#32](https://github.com/User0332/rewards-farmer/pull/32) | Lowered the Python floor to widen platform support. |
+| [withastro/astro](https://github.com/withastro/astro/pull/17861) | 62.8k | 1 | Fallback route generation swapped the locale as a substring, corrupting any path segment that merely started with the locale code. |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas/pull/67406) | 49.8k | 1 | `qcut` never validated `q`: a bad bin count raised the wrong error, or none at all. |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 42.8k | 3 | Kept `node:fs` out of the browser build, fixed 25 tests that failed on every Windows clone, and bounded CCTV media downloads with an idle deadline. |
+| [psf/black](https://github.com/psf/black/pull/5411) | 41.9k | 1 | Formatting from a notebook crashed because it assumed every stdout has a `.buffer`. |
+| [raysan5/raylib](https://github.com/raysan5/raylib/pull/6187) | 34.9k | 1 | `MatrixCompose()` read back vector components it had just overwritten, so most rotations produced a wrong matrix. |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 34.0k | 3 | Reference links that resolve on GitHub and for the agent, and "newest first" history that really is, fixing three tests already failing on `main`. |
+| [fmtlib/fmt](https://github.com/fmtlib/fmt/pull/4919) | 25.8k | 1 | A test target built from `format.cc` never inherited the library's `/utf-8`, so the pedantic build did not compile under MSVC. |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect/pull/22980) | 23.9k | 1 | Jitter was drawn around the base interval instead of the backed-off one, so every caller silently lost its retry backoff. |
+| [kivy/kivy](https://github.com/kivy/kivy/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 19.0k | 2 | KV bindings queued during `Builder.sync` were dropped, silently and forever. |
+| [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller/pull/9521) | 13.1k | 1 | The icon suffix was checked case-sensitively, so `MyApp.ICO` was rejected or silently re-encoded. |
+
+Plus 33 more merges across OpenLayers, kornia, Unciv, node-gyp, Terser, SwiftFormat, Luau, MockK, OpenBot and 12 other repositories — [full list on ethanstoner.dev](https://ethanstoner.dev/open-source).
 
 <sub>Two worth reading in full: <a href="https://github.com/elie222/rakazo/pull/322">rakazo #322</a>, where the reporter wrote "I cannot explain the root cause" and I narrowed it by elimination; and <a href="https://github.com/truefoundry/trueforge/pull/464">trueforge #464</a>, where a reviewer questioned whether an abort was needed and I measured it rather than argued it — <code>Promise.race</code> frees the caller but leaves the socket open.</sub>
 
@@ -122,6 +119,7 @@ Indexing reads headers only and never pixel data, so a 1026-slice study indexes 
 | Project | What it does | Stack |
 |---|---|---|
 | [Universe Simulator](https://github.com/ethanstoner/universe-simulator-cpp) | Newtonian N-body gravity in C++20 and OpenGL 3.3 from real astronomical data — four integrators, Barnes-Hut or exact summation, live energy and momentum diagnostics. 141 unit tests; builds warning-free on four toolchains, and CI runs the OpenGL self-test headlessly through Mesa, 41,005 checks. | `C++20` `OpenGL` `CMake` |
+| Pincer <sub>(private)</sub> | Closed-loop agent driving physical Android phones over ADB: a fine-tuned YOLO11 detector finds on-screen targets, and the agent labels its own training data through a self-supervised flywheel. Per-frame capture from ~600 ms to ~1.3 ms. 127 tests. | `Python` `PyTorch` `YOLO11` `ONNX` |
 | [Qorlyt](https://github.com/ethanstoner/3d-generator) | One image becomes a textured `.glb` in about 90 seconds on a local ComfyUI + Hunyuan3D 2.1 GPU pipeline, behind a FastAPI backend with WebSocket progress and an async job queue. | `Python` `FastAPI` `ComfyUI` `GPU` |
 | [CSUSM Campus Monitor](https://github.com/ethanstoner/csusm-monitor) | Counts people on live campus HLS streams using NVIDIA's LocateAnything-3B open-vocabulary grounding model, falling back to YOLOv8n when the GPU service is unreachable. CI-tested FastAPI dashboard. | `Python` `FastAPI` `OpenCV` `Docker` |
 | Automated 3D Asset Pipeline | Unattended ComfyUI + Hunyuan3D GPU pipeline, built and run end to end. **11,000+ AI-generated 3D assets sold.** | `Python` `ComfyUI` `GPU` |
