@@ -4,7 +4,7 @@
 
 **Software Engineer · Cloud, Backend & AI Systems**
 
-I build and operate production software, cloud infrastructure, and applied AI systems.
+I build and deploy software, cloud infrastructure, and applied AI systems.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ethanstoner.dev-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ethanstoner.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-eastoner-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eastoner)
@@ -34,11 +34,11 @@ Built and deployed, not yet in service: auth and billing are wired against Clerk
 
 ---
 
-### GenAI Gateway on AWS — production deployment &nbsp; [![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws)
+### GenAI Gateway on AWS — cloud deployment &nbsp; [![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws)
 
-Took AWS's multi-provider GenAI gateway from an empty repository to a live, TLS-secured production endpoint — **~120 AWS resources provisioned with Terraform**, and ownership of the deployment lifecycle after it was running. LiteLLM fronts Amazon Bedrock behind one OpenAI-compatible endpoint; VPC, ECS Fargate, ALB, RDS, ElastiCache, WAF, Secrets Manager and Bedrock VPC endpoints, with a remote S3 state backend, Route 53 + ACM, least-privilege IAM and per-key cost observability. Bedrock Guardrails plus a Presidio PII-masking sidecar — where I traced a masking defect to a dependency version and fixed it with a controlled upgrade and regression testing.
+Took AWS's multi-provider GenAI gateway from an empty repository to a working, TLS-secured endpoint, with **~120 AWS resources provisioned with Terraform**. It was stood up end to end and then torn down, not left running as a service. LiteLLM fronts Amazon Bedrock behind one OpenAI-compatible endpoint; VPC, ECS Fargate, ALB, RDS, ElastiCache, WAF, Secrets Manager and Bedrock VPC endpoints, with a remote S3 state backend, Route 53 + ACM, least-privilege IAM and per-key cost observability. Bedrock Guardrails plus a Presidio PII-masking sidecar — where I traced a masking defect to a dependency version and fixed it with a controlled upgrade and regression testing.
 
-**Scope and credit:** the architecture is AWS's own [reference design](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws), not mine. My work was the deployment and the operation of it — a real production task set by Cisco professionals at Riffyx Labs.
+**Scope and credit:** the architecture is AWS's own [reference design](https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws), not mine. My work was the deployment, a task set by Cisco professionals at Riffyx Labs.
 
 `AWS` · `Terraform` · `ECS Fargate` · `Bedrock` · `RDS` · `ElastiCache` · `Docker` · `LiteLLM`
 
@@ -64,7 +64,7 @@ The trained policy completes **24 of 24** backflips at 358 degrees mean rotation
 
 ### kvstore — Redis-compatible database engine &nbsp; [![Tests](https://img.shields.io/badge/tests-209%20passing-brightgreen?style=flat-square)](https://github.com/ethanstoner/kvstore) [![Repo](https://img.shields.io/badge/code-GitHub-181717?style=flat-square&logo=github)](https://github.com/ethanstoner/kvstore)
 
-Written from scratch in **Java 21** rather than wrapped around an existing engine. The storage layer is the same shape as LevelDB and RocksDB — write-ahead log, in-memory memtable, sorted on-disk SSTables, leveled compaction, bloom filters — behind a TCP server speaking Redis's **RESP** protocol, so `redis-cli`, `redis-py` and `Jedis` connect unmodified. TLS, multi-user auth, pub/sub and snapshots. **209 automated tests**, ~5,200 lines.
+Written from scratch in **Java 21** rather than wrapped around an existing engine. The storage layer is the same shape as LevelDB and RocksDB — write-ahead log, in-memory memtable, sorted on-disk SSTables, leveled compaction, bloom filters — behind a TCP server speaking Redis's **RESP** protocol, so `redis-cli`, `redis-py` and `Jedis` connect unmodified. TLS, multi-user auth, pub/sub and snapshots. **~100K writes/s and ~130K reads/s** single-threaded (JMH), with bloom filters answering missing keys ~90x faster. **209 automated tests**, ~5,200 lines.
 
 `Java 21` · `LSM-Tree` · `RESP` · `TLS` · `Concurrency`
 
@@ -122,7 +122,7 @@ Plus 33 more merges across OpenLayers, kornia, Unciv, node-gyp, Terser, SwiftFor
 | Pincer <sub>(private)</sub> | Closed-loop agent driving physical Android phones over ADB: a fine-tuned YOLO11 detector finds on-screen targets, and the agent labels its own training data through a self-supervised flywheel. Per-frame capture from ~600 ms to ~1.3 ms. 127 tests. | `Python` `PyTorch` `YOLO11` `ONNX` |
 | [Qorlyt](https://github.com/ethanstoner/3d-generator) | One image becomes a textured `.glb` in about 90 seconds on a local ComfyUI + Hunyuan3D 2.1 GPU pipeline, behind a FastAPI backend with WebSocket progress and an async job queue. | `Python` `FastAPI` `ComfyUI` `GPU` |
 | [CSUSM Campus Monitor](https://github.com/ethanstoner/csusm-monitor) | Counts people on live campus HLS streams using NVIDIA's LocateAnything-3B open-vocabulary grounding model, falling back to YOLOv8n when the GPU service is unreachable. CI-tested FastAPI dashboard. | `Python` `FastAPI` `OpenCV` `Docker` |
-| Automated 3D Asset Pipeline | Unattended ComfyUI + Hunyuan3D GPU pipeline, built and run end to end. **11,000+ AI-generated 3D assets sold.** | `Python` `ComfyUI` `GPU` |
+| Automated 3D Asset Pipeline | Unattended ComfyUI + Hunyuan3D GPU pipeline, built and run end to end. **15,200+ sales and 344k Robux (~$1.3k at the DevEx rate) in the past year.** | `Python` `ComfyUI` `GPU` |
 | [yt2tiktok](https://github.com/ethanstoner/yt2tiktok) | Turns a YouTube video into scheduled, captioned vertical clips — NVENC encoding with CPU fallback, hybrid transcription. | `Python` `ffmpeg` `Whisper` |
 | [Lyric Generator](https://github.com/ethanstoner/lyric-generator) | Spotify link in, lyric video out — Whisper word-level timing, Pillow rendering, ffmpeg mux. | `Python` `FastAPI` `Whisper` |
 | [Hunyuan3D-2.1 Install Guide](https://github.com/ethanstoner/Hunyuan3D-2.1-Complete-Install-Guide) | Step-by-step install for Hunyuan3D-2.1 + ComfyUI on Windows. My most-starred repo. | `Docs` |
@@ -134,8 +134,11 @@ Plus 33 more merges across OpenLayers, kornia, Unciv, node-gyp, Terser, SwiftFor
 **Landed** — Founder & Solo Engineer · 2026 – Present
 > Built a card-pricing product end to end as sole engineer — product, infrastructure and testing. Deployed and live at [landedcards.com](https://landedcards.com); auth and billing are wired but not yet running in production.
 
+**Roblox UGC** — Independent Creator · 2025 – Present
+> Design and sell 3D avatar accessories made with a local-GPU generation pipeline: **15,200+ sales and 344k Robux (~$1.3k at the DevEx rate) over the past year.**
+
 **Riffyx Labs** — Engineering Mentee · 2025 – 2026
-> Deployed and operated a multi-provider GenAI gateway on AWS, provisioning ~120 resources with Terraform across ECS Fargate, RDS, ALB, WAF and Bedrock, with Guardrails and PII masking. Given a real production task by Cisco professionals and completed it end to end.
+> Deployed a multi-provider GenAI gateway on AWS end to end, provisioning ~120 resources with Terraform across ECS Fargate, RDS, ALB, WAF and Bedrock, with Guardrails and PII masking. A task set by Cisco professionals, completed end to end.
 
 <br>
 
