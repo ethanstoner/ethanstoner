@@ -137,9 +137,6 @@ Plus 33 more merges across OpenLayers, kornia, Unciv, node-gyp, Terser, SwiftFor
 **Riffyx Labs** — Engineering Mentee · 2025 – 2026
 > Deployed and operated a multi-provider GenAI gateway on AWS, provisioning ~120 resources with Terraform across ECS Fargate, RDS, ALB, WAF and Bedrock, with Guardrails and PII masking. Given a real production task by Cisco professionals and completed it end to end.
 
-**Freelance Web Developer** — Self-Employed · 2024 – Present
-> Build, deploy and maintain production sites for small-business clients, owning deployment, DNS and hosting.
-
 <br>
 
 ## Education & Certifications
