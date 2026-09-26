@@ -36,7 +36,7 @@ An LSM-tree key-value store written from scratch in Java 21. `redis-cli`, `redis
 - Storage engine shaped like LevelDB/RocksDB: write-ahead log, memtable, sorted SSTables, leveled compaction and bloom filters.
 - **~100K writes/s and ~130K reads/s** single-threaded (JMH, 100K keys). Bloom filters answer missing keys **~90x faster** by skipping the disk.
 - Speaks Redis's RESP protocol over TCP, with TLS, multi-user auth, pub/sub and snapshots.
-- **209 tests**, ~5,200 lines.
+- **209 tests**, about 3,800 lines of Java plus 3,300 of tests.
 
 `Java 21` · `LSM-Tree` · `RESP` · `Concurrency`
 
@@ -47,7 +47,7 @@ A physics engine and a reinforcement-learning algorithm, both written from scrat
 - A 2D sequential-impulse constraint solver in **C++**: warm starting, speculative contacts, a Coulomb friction cone.
 - **PPO from scratch** in PyTorch: clipped objective, GAE, advantage normalisation, KL early stop.
 - The trained policy lands **24 of 24 backflips**, and still lands **83%** when shoved with 200 N·s mid-flight.
-- 64 environments share one UDP datagram per control step. **303 tests** (214 C++, 89 Python).
+- 64 environments share one UDP datagram per control step. **313 tests** (216 C++, 97 Python).
 
 `C++` · `Python` · `PyTorch` · `OpenGL`
 
@@ -56,7 +56,7 @@ A physics engine and a reinforcement-learning algorithm, both written from scrat
 Point one Rust binary at a folder of CT or MRI files and get a browser viewer with 2D slices and 3D GPU volume rendering.
 
 - Slice order comes from each file's position in patient coordinates, never `InstanceNumber`, which lies in real data. A regression test shuffles instance numbers to prove it.
-- Indexes headers only, never pixel data: a 1,026-slice study indexes in **97.8 ms**.
+- Indexes headers only, never pixel data: a 1,026-slice study indexes in **~90 ms**.
 - Hand-written **WebGL2** raymarching with a resolution pyramid, so a modest laptop loads 1 MB instead of 64 MB.
 - **127 tests** (67 Rust, 60 browser), plus 7 that run against real CT studies from the public NCI archive. MIT.
 
