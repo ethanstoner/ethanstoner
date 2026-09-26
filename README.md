@@ -1,8 +1,12 @@
+<div align="center">
+
 # Ethan Stoner
 
-**Software Engineer · Cloud, Backend & AI Systems** · CS at Cal State San Marcos · open to SWE internships and part-time work
+**Software Engineer · Cloud, Backend & AI Systems**<br>CS at Cal State San Marcos · open to SWE internships and part-time work
 
-[Portfolio](https://ethanstoner.dev) · [Resume](https://ethanstoner.dev/Ethan_Stoner_Resume.pdf) · [LinkedIn](https://linkedin.com/in/eastoner) · [Email](mailto:ethanstoner08@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ethanstoner.dev)&nbsp;[![Resume](https://img.shields.io/badge/Resume-1b3a72?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xNCAySDZhMiAyIDAgMCAwLTIgMnYxNmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWOGwtNi02em0tMSA3VjMuNUwxOC41IDlIMTN6TTggMTNoOHYySDh2LTJ6bTAgNGg4djJIOHYtMnoiLz48L3N2Zz4%3D)](https://ethanstoner.dev/Ethan_Stoner_Resume.pdf)&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NnYtNS41N2MwLTEuMzMtLjAzLTMuMDQtMS44NS0zLjA0LTEuODUgMC0yLjE0IDEuNDUtMi4xNCAyLjk0djUuNjdIOS4zNVY5aDMuNDF2MS41NmguMDVjLjQ4LS45IDEuNjQtMS44NSAzLjM3LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1ek0yMi4yMiAwSDEuNzdDLjc5IDAgMCAuNzcgMCAxLjczdjIwLjU0QzAgMjMuMjMuNzkgMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8%2BPC9zdmc%2B)](https://linkedin.com/in/eastoner)&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ethanstoner08@gmail.com)
+
+</div>
 
 ### Highlights
 
@@ -12,11 +16,18 @@
 - **~120 AWS resources provisioned with Terraform** to deploy a multi-provider GenAI gateway end to end.
 - **A Redis-compatible database engine from scratch** in Java 21: ~100K writes/s and ~130K reads/s single-threaded.
 
-**Python · TypeScript · Java · C++ · Rust · AWS · Terraform · PyTorch · Cloudflare Workers**
+### Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,java,cpp,rust,react,nextjs,fastapi,nodejs&perline=10" alt="Python, TypeScript, JavaScript, Java, C++, Rust, React, Next.js, FastAPI, Node.js" height="48"><br>
+  <img src="https://skillicons.dev/icons?i=pytorch,aws,terraform,docker,cloudflare,postgres,sqlite,linux,githubactions,git&perline=10" alt="PyTorch, AWS, Terraform, Docker, Cloudflare, PostgreSQL, SQLite, Linux, GitHub Actions, Git" height="48">
+</p>
 
 ---
 
 ## Selected Projects
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/local-llm-lab-768.webp?v=1" alt="">
 
 ### [Local LLM Lab](https://github.com/ethanstoner/local-llm-lab): making a 7B model faster on one GPU, then taking it apart
 
@@ -28,6 +39,9 @@ A measurement framework for Qwen2.5-7B-Instruct on an RTX 4090. It finds where i
 - Paired ABBA benchmarks, and every headline number is a recorded run stored with its hardware, versions and commit. **173 tests.**
 
 `Python` · `PyTorch` · `Transformers` · `CUDA`
+<br clear="right">
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/kvstore-768.webp?v=1" alt="">
 
 ### [kvstore](https://github.com/ethanstoner/kvstore): a Redis-compatible database engine
 
@@ -39,6 +53,9 @@ An LSM-tree key-value store written from scratch in Java 21. `redis-cli`, `redis
 - **209 tests**, about 3,800 lines of Java plus 3,300 of tests.
 
 `Java 21` · `LSM-Tree` · `RESP` · `Concurrency`
+<br clear="right">
+
+<img align="right" width="300" src="https://raw.githubusercontent.com/ethanstoner/aibackflip/main/docs/media/backflip.gif" alt="">
 
 ### [aibackflip](https://github.com/ethanstoner/aibackflip): a humanoid that learns to backflip
 
@@ -50,6 +67,9 @@ A physics engine and a reinforcement-learning algorithm, both written from scrat
 - 64 environments share one UDP datagram per control step. **313 tests** (216 C++, 97 Python).
 
 `C++` · `Python` · `PyTorch` · `OpenGL`
+<br clear="right">
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/strata-768.webp?v=1" alt="">
 
 ### [strata](https://github.com/ethanstoner/strata): a zero-setup DICOM viewer
 
@@ -61,6 +81,9 @@ Point one Rust binary at a folder of CT or MRI files and get a browser viewer wi
 - **127 tests** (67 Rust, 60 browser), plus 7 that run against real CT studies from the public NCI archive. MIT.
 
 `Rust` · `WebGL2` · `axum` · `SQLite` · `TypeScript`
+<br clear="right">
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/heart-disease-audit-768.webp?v=1" alt="">
 
 ### [Heart Disease Audit](https://github.com/ethanstoner/heart-disease-audit): a reproducibility audit of a popular ML dataset
 
@@ -72,6 +95,9 @@ Traces the Kaggle Heart Failure Prediction CSV back to its four UCI hospital sou
 - Leave-one-hospital-out AUC is about **0.83**. **77 tests**, and all five notebooks run in CI.
 
 `Python` · `pandas` · `scikit-learn` · `pytest`
+<br clear="right">
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/landed-768.webp?v=1" alt="">
 
 ### [Landed](https://landedcards.com): pricing for card shops
 
@@ -82,6 +108,9 @@ Paste a TCGplayer link and get a whole-dollar sticker price for every condition,
 - **371 automated tests.** Deployed but not yet in service: Clerk auth and Stripe billing are wired in test mode.
 
 `TypeScript` · `Cloudflare Workers` · `D1` · `Stripe` · `Python`
+<br clear="right">
+
+<img align="right" width="300" src="https://ethanstoner.dev/media/genai-gateway-696.webp?v=1" alt="">
 
 ### GenAI Gateway on AWS: cloud deployment
 
@@ -92,6 +121,7 @@ Deployed AWS's [multi-provider GenAI gateway reference design](https://github.co
 - Traced a PII-masking defect in the Presidio sidecar to a dependency version, and fixed it with a controlled upgrade and regression tests.
 
 `AWS` · `Terraform` · `ECS Fargate` · `Bedrock` · `LiteLLM`
+<br clear="right">
 
 ---
 
