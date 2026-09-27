@@ -69,6 +69,20 @@ A physics engine and a reinforcement-learning algorithm, both written from scrat
 `C++` · `Python` · `PyTorch` · `OpenGL`
 <br clear="right">
 
+<img align="right" width="300" src="https://ethanstoner.dev/media/tempo-768.webp?v=1" alt="">
+
+### Tempo: a neural-network chess engine <sub>(private repo · [live on Lichess](https://lichess.org/@/prospedplayer))</sub>
+
+A chess engine written from scratch in C++20, with an NNUE evaluation trained in PyTorch on its own self-play games.
+
+- Rated **2976 (95% CI 2933-3019)** from 300 games against Stockfish 19 capped at 2800-3190, on Stockfish's own scale at 10s + 0.1s. The first version rated 2688.
+- The network trained on **120M self-play positions** beat the hand-written evaluation by **+175 ± 32 Elo**, and every retrain after it had to pass an SPRT match to ship.
+- Lazy SMP search gains **+269 Elo** at 8 threads. Move generation matches all 32 published perft counts (610M nodes, ~113M nodes/s).
+- Plays rated blitz on Lichess as a BOT account, currently around 2600.
+
+`C++20` · `PyTorch` · `NNUE` · `CMake`
+<br clear="right">
+
 <img align="right" width="300" src="https://ethanstoner.dev/media/strata-768.webp?v=1" alt="">
 
 ### [strata](https://github.com/ethanstoner/strata): a zero-setup DICOM viewer
@@ -166,6 +180,9 @@ Deployed a multi-provider GenAI gateway on AWS end to end, provisioning ~120 res
 | Project | What it does | Stack |
 |---|---|---|
 | [Universe Simulator](https://github.com/ethanstoner/universe-simulator-cpp) | Newtonian N-body gravity from real astronomical data, with four integrators, Barnes-Hut or exact summation, and live energy diagnostics. 141 unit tests; CI runs the OpenGL self-test headlessly (41,005 checks). | `C++20` `OpenGL` `CMake` |
+| NeuroRacer <sub>(private)</sub> | Neuroevolution racing cars as a generalisation lab, with every claim pre-registered in git. The champion laps 43/43 clockwise test tracks and 0/42 counter-clockwise; training both ways makes 5/5 seeds lap all 100 in both directions. Includes a TypeScript track editor parity-tested against the trainer's NumPy checks. | `Python` `NumPy` `TypeScript` |
+| bytepair <sub>(private)</sub> | GPT-4's byte-level BPE tokenizer rebuilt in Rust with PyO3 bindings: zero mismatches against tiktoken over 7.46M tokens, 1.6-2.2x faster encoding on one thread, and 3.2-4.9x faster training than Hugging Face tokenizers. | `Rust` `Python` `PyO3` |
+| RAG From Scratch <sub>(private)</sub> | 18 RAG techniques in plain Python, scored on 300 MultiHop-RAG queries with paired bootstrap CIs. A reranker lifts exact match from 0.563 to 0.667; CRAG and Self-RAG both hurt. | `Python` `Ollama` `pytest` |
 | Pincer <sub>(private)</sub> | Closed-loop agent driving physical Android phones over ADB with a fine-tuned YOLO11 detector that labels its own training data. Per-frame capture cut from ~600 ms to ~1.3 ms. | `Python` `PyTorch` `YOLO11` |
 | [Qorlyt](https://github.com/ethanstoner/3d-generator) | One image becomes a textured 3D model in about 90 seconds on a local ComfyUI + Hunyuan3D 2.1 pipeline, behind FastAPI with live progress. | `Python` `FastAPI` `ComfyUI` |
 | [CSUSM Campus Monitor](https://github.com/ethanstoner/csusm-monitor) | Counts people on live campus camera streams with an open-vocabulary grounding model, falling back to YOLOv8n without a GPU. 133 tests. | `Python` `FastAPI` `OpenCV` |
