@@ -186,7 +186,6 @@ Deployed a multi-provider GenAI gateway on AWS end to end, provisioning ~120 res
 | Pincer <sub>(private)</sub> | Closed-loop agent driving physical Android phones over ADB with a fine-tuned YOLO11 detector that labels its own training data. Per-frame capture cut from ~600 ms to ~1.3 ms. | `Python` `PyTorch` `YOLO11` |
 | [Qorlyt](https://github.com/ethanstoner/3d-generator) | One image becomes a textured 3D model in about 90 seconds on a local ComfyUI + Hunyuan3D 2.1 pipeline, behind FastAPI with live progress. | `Python` `FastAPI` `ComfyUI` |
 | [CSUSM Campus Monitor](https://github.com/ethanstoner/csusm-monitor) | Counts people on live campus camera streams with an open-vocabulary grounding model, falling back to YOLOv8n without a GPU. 133 tests. | `Python` `FastAPI` `OpenCV` |
-| [yt2tiktok](https://github.com/ethanstoner/yt2tiktok) | Turns a YouTube video into scheduled, captioned vertical clips. | `Python` `ffmpeg` `Whisper` |
 | [Lyric Generator](https://github.com/ethanstoner/lyric-generator) | Spotify link in, lyric video out, with Whisper word-level timing. | `Python` `FastAPI` `Whisper` |
 | [Hunyuan3D-2.1 Install Guide](https://github.com/ethanstoner/Hunyuan3D-2.1-Complete-Install-Guide) | Step-by-step Windows install for Hunyuan3D-2.1 + ComfyUI. My most-starred repo. | `Docs` |
 
