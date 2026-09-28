@@ -10,7 +10,7 @@
 
 ### Highlights
 
-- **50 pull requests merged into 31 open-source repositories totalling 479,000+ stars**, including Astro, pandas, Black, raylib and Prefect.
+- **54 pull requests merged into 34 open-source repositories totalling 511,000+ stars**, including Astro, pandas, Black, raylib and Prefect.
 - **15,200+ sales and 344k Robux (~$1.3k at the DevEx rate) in the past year** from 3D accessories made on my own local-GPU generation pipeline.
 - **1.57x faster LLM decoding at 16k context** on an RTX 4090, found with a roofline built from measured hardware ceilings.
 - **~120 AWS resources provisioned with Terraform** to deploy a multi-provider GenAI gateway end to end.
@@ -55,20 +55,6 @@ An LSM-tree key-value store written from scratch in Java 21. `redis-cli`, `redis
 `Java 21` · `LSM-Tree` · `RESP` · `Concurrency`
 <br clear="right">
 
-<img align="right" width="300" src="https://raw.githubusercontent.com/ethanstoner/aibackflip/main/docs/media/backflip.gif" alt="">
-
-### [aibackflip](https://github.com/ethanstoner/aibackflip): a humanoid that learns to backflip
-
-A physics engine and a reinforcement-learning algorithm, both written from scratch. There's no physics library, no animation and no scripted trajectory.
-
-- A 2D sequential-impulse constraint solver in **C++**: warm starting, speculative contacts, a Coulomb friction cone.
-- **PPO from scratch** in PyTorch: clipped objective, GAE, advantage normalisation, KL early stop.
-- The trained policy lands **24 of 24 backflips**, and still lands **83%** when shoved with 200 N·s mid-flight.
-- 64 environments share one UDP datagram per control step. **313 tests** (216 C++, 97 Python).
-
-`C++` · `Python` · `PyTorch` · `OpenGL`
-<br clear="right">
-
 <img align="right" width="300" src="https://ethanstoner.dev/media/tempo-768.webp?v=1" alt="">
 
 ### [Tempo](https://github.com/ethanstoner/tempo-chess): a neural-network chess engine <sub>([live on Lichess](https://lichess.org/@/prospedplayer))</sub>
@@ -83,18 +69,18 @@ A chess engine written from scratch in C++20, with an NNUE evaluation trained in
 `C++20` · `PyTorch` · `NNUE` · `CMake`
 <br clear="right">
 
-<img align="right" width="300" src="https://ethanstoner.dev/media/strata-768.webp?v=1" alt="">
+<img align="right" width="300" src="https://ethanstoner.dev/media/bytepair-768.webp?v=1" alt="">
 
-### [strata](https://github.com/ethanstoner/strata): a zero-setup DICOM viewer
+### [bytepair](https://github.com/ethanstoner/bytepair): GPT-4's tokenizer, rebuilt in Rust
 
-Point one Rust binary at a folder of CT or MRI files and get a browser viewer with 2D slices and 3D GPU volume rendering.
+A byte-level BPE tokenizer with a Rust engine behind PyO3 bindings, and a pure-Python reference kept alongside it as the oracle.
 
-- Slice order comes from each file's position in patient coordinates, never `InstanceNumber`, which lies in real data. A regression test shuffles instance numbers to prove it.
-- Indexes headers only, never pixel data: a 1,026-slice study indexes in **~90 ms**.
-- Hand-written **WebGL2** raymarching with a resolution pyramid, so a modest laptop loads 1 MB instead of 64 MB.
-- **127 tests** (67 Rust, 60 browser), plus 7 that run against real CT studies from the public NCI archive. MIT.
+- **1.6-2.2x faster than tiktoken** on one thread, with **zero mismatches** over 7.46M tokens on cl100k and o200k, plus a 1M-string fuzz.
+- Trains a vocabulary **3.2-4.9x faster than Hugging Face tokenizers**, with merges identical to the Python reference.
+- Hand-written pre-tokenizer splitters replace the regex engine and run **15.5-20x faster** than it.
+- Refuses a literal `<|endoftext|>` in user text, which Hugging Face's GPT-4 port turns into the special token. **151 tests** (138 Python, 13 Rust), CI green.
 
-`Rust` · `WebGL2` · `axum` · `SQLite` · `TypeScript`
+`Rust` · `Python` · `PyO3` · `maturin`
 <br clear="right">
 
 <img align="right" width="300" src="https://ethanstoner.dev/media/heart-disease-audit-768.webp?v=1" alt="">
@@ -141,22 +127,22 @@ Deployed AWS's [multi-provider GenAI gateway reference design](https://github.co
 
 ## Open Source
 
-**50 pull requests merged into 31 repositories totalling 479,000+ stars.** These are fixes in codebases I don't maintain, found by reading unfamiliar code, diagnosed by measurement and defended in review. The ten largest repositories:
+**54 pull requests merged into 34 repositories totalling 511,000+ stars.** These are fixes in codebases I don't maintain, found by reading unfamiliar code, diagnosed by measurement and defended in review. The ten largest repositories:
 
 | Repo | ★ | Merged | What it fixed |
 |---|---|---|---|
-| [withastro/astro](https://github.com/withastro/astro/pull/17861) | 62.8k | 1 | Fallback route generation swapped the locale as a substring, corrupting any path segment that merely started with the locale code. |
-| [pandas-dev/pandas](https://github.com/pandas-dev/pandas/pull/67406) | 49.8k | 1 | `qcut` never validated `q`: a bad bin count raised the wrong error, or none at all. |
-| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 43.1k | 3 | Kept `node:fs` out of the browser build, fixed 25 tests that failed on every Windows clone, and bounded CCTV media downloads with an idle deadline. |
+| [withastro/astro](https://github.com/withastro/astro/pull/17861) | 62.9k | 1 | Fallback route generation swapped the locale as a substring, corrupting any path segment that merely started with the locale code. |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas/pull/67406) | 49.9k | 1 | `qcut` never validated `q`: a bad bin count raised the wrong error, or none at all. |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 44.3k | 3 | Kept `node:fs` out of the browser build, fixed 25 tests that failed on every Windows clone, and bounded CCTV media downloads with an idle deadline. |
 | [psf/black](https://github.com/psf/black/pull/5411) | 41.9k | 1 | Formatting from a notebook crashed because it assumed every stdout has a `.buffer`. |
 | [raysan5/raylib](https://github.com/raysan5/raylib/pull/6187) | 34.9k | 1 | `MatrixCompose()` read back vector components it had just overwritten, so most rotations produced a wrong matrix. |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 34.0k | 3 | Reference links that resolve on GitHub and for the agent, and "newest first" history that really is, fixing three tests already failing on `main`. |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 34.2k | 3 | Reference links that resolve on GitHub and for the agent, and "newest first" history that really is, fixing three tests already failing on `main`. |
 | [fmtlib/fmt](https://github.com/fmtlib/fmt/pull/4919) | 25.8k | 1 | A test target built from `format.cc` never inherited the library's `/utf-8`, so the pedantic build did not compile under MSVC. |
 | [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect/pull/22980) | 23.9k | 1 | Jitter was drawn around the base interval instead of the backed-off one, so every caller silently lost its retry backoff. |
 | [kivy/kivy](https://github.com/kivy/kivy/pulls?q=is%3Apr+author%3Aethanstoner+is%3Amerged) | 19.0k | 2 | KV bindings queued during `Builder.sync` were dropped, silently and forever. |
-| [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller/pull/9521) | 13.1k | 1 | The icon suffix was checked case-sensitively, so `MyApp.ICO` was rejected or silently re-encoded. |
+| [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS/pull/9343) | 16.2k | 1 | The feed preview page skipped the URL-rewriting hook that subscribing ran, so extensions like RSS-Bridge were bypassed on the page that confirms a subscription. |
 
-Plus 35 more merges across OpenLayers, kornia, Unciv, node-gyp, Terser, SwiftFormat, Luau, MockK, OpenBot and 12 other repositories: [full list on ethanstoner.dev](https://ethanstoner.dev/open-source).
+Plus 39 more merges across PyInstaller, OpenLayers, Simon Willison's llm, kornia, Unciv, node-gyp, Terser, SwiftFormat, Puma and 15 other repositories: [full list on ethanstoner.dev](https://ethanstoner.dev/open-source).
 
 Two worth reading in full: [rakazo #322](https://github.com/elie222/rakazo/pull/322), where the reporter wrote "I cannot explain the root cause" and I narrowed it down by elimination, and [trueforge #464](https://github.com/truefoundry/trueforge/pull/464), where a reviewer asked whether an abort was needed and I measured it instead of arguing: `Promise.race` frees the caller but leaves the socket open.
 
@@ -179,9 +165,10 @@ Deployed a multi-provider GenAI gateway on AWS end to end, provisioning ~120 res
 
 | Project | What it does | Stack |
 |---|---|---|
+| [aibackflip](https://github.com/ethanstoner/aibackflip) | A humanoid learns to backflip on a 2D physics engine and PPO both written from scratch: 24 of 24 flips land, and 83% still land when shoved mid-flight. 313 tests. | `C++` `Python` `PyTorch` |
+| [strata](https://github.com/ethanstoner/strata) | One Rust binary turns a folder of CT or MRI files into a browser viewer with hand-written WebGL2 volume rendering, ordering slices by scanner geometry rather than file index. 127 tests. | `Rust` `WebGL2` `TypeScript` |
 | [Universe Simulator](https://github.com/ethanstoner/universe-simulator-cpp) | Newtonian N-body gravity from real astronomical data, with four integrators, Barnes-Hut or exact summation, and live energy diagnostics. 141 unit tests; CI runs the OpenGL self-test headlessly (41,005 checks). | `C++20` `OpenGL` `CMake` |
 | [NeuroRacer](https://github.com/ethanstoner/neuro-racer) | Neuroevolution racing cars as a generalisation lab, with every claim pre-registered in git. The champion laps 43/43 clockwise test tracks and 0/42 counter-clockwise; training both ways makes 5/5 seeds lap all 100 in both directions. Includes a TypeScript track editor parity-tested against the trainer's NumPy checks, [live in the browser](https://neuroracer.ethanstoner.dev). | `Python` `NumPy` `TypeScript` |
-| [bytepair](https://github.com/ethanstoner/bytepair) | GPT-4's byte-level BPE tokenizer rebuilt in Rust with PyO3 bindings: zero mismatches against tiktoken over 7.46M tokens, 1.6-2.2x faster encoding on one thread, and 3.2-4.9x faster training than Hugging Face tokenizers. | `Rust` `Python` `PyO3` |
 | [RAG From Scratch](https://github.com/ethanstoner/rag-from-scratch) | 18 RAG techniques in plain Python, scored on 300 MultiHop-RAG queries with paired bootstrap CIs. A reranker lifts exact match from 0.563 to 0.667; CRAG and Self-RAG both hurt. | `Python` `Ollama` `pytest` |
 | Pincer <sub>(private)</sub> | Closed-loop agent driving physical Android phones over ADB with a fine-tuned YOLO11 detector that labels its own training data. Per-frame capture cut from ~600 ms to ~1.3 ms. | `Python` `PyTorch` `YOLO11` |
 | [Qorlyt](https://github.com/ethanstoner/3d-generator) | One image becomes a textured 3D model in about 90 seconds on a local ComfyUI + Hunyuan3D 2.1 pipeline, behind FastAPI with live progress. | `Python` `FastAPI` `ComfyUI` |
@@ -194,6 +181,7 @@ Deployed a multi-provider GenAI gateway on AWS end to end, provisioning ~120 res
 ## Education & Certifications
 
 - **Cal State San Marcos**, B.S. Computer Science · Fall 2026 – 2030 (expected)
-- **Anthropic:** Claude API, Amazon Bedrock, Vertex AI, Model Context Protocol (Advanced), Claude Code ([all certificates](https://ethanstoner.dev/certifications))
+- **Great Oak High School**, Temecula, CA, Diploma · June 2026
+- **Anthropic:** Claude API, Amazon Bedrock, Vertex AI, Model Context Protocol (Advanced), Agent Skills, Claude Code ([all certificates](https://ethanstoner.dev/certifications))
 - **OpenAI Academy:** Agents & Workflows, AI Foundations, Applied AI Foundations
 - **AWS Certified Cloud Practitioner (CLF-C02):** exam in progress
